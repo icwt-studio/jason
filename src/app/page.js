@@ -1,13 +1,25 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+
 import styles from './page.module.css'
+import RenderPage from './components/RenderPage';
+//import getStaticProps
 
-const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default async function Home() {
+  const data = await getData();
+  console.log(data);
   return (
     <main className={styles.main}>
-      <h1>Welcome to JASON</h1>
+      <RenderPage data={data} />
     </main>
   )
+}
+
+import { promises as fs } from 'fs';
+
+async function getData() {
+  //const jsonDirectory = path.join(process.cwd(), 'data');
+  //Read the json data file data.json
+  const fileContents = await fs.readFile('data.json', 'utf8');
+  //Return the content of the data file in json format
+  return JSON.parse(fileContents);
 }
