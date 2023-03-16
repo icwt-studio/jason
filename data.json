@@ -90,10 +90,10 @@
                 "price": 7000,
                 "currency": "ARS",
                 "link": "https://reactjs.org/docs/getting-started.html",
-                "link_img":"https://reactjs.org/logo-og.png"
+                "link_img":"https://sigdeletras.com/images/blog/202004_react_leaflet/react.png"
             }
         },
-        {
+         {
             "component": "Margin",
             "data": {
                 "x": 0,
@@ -103,13 +103,56 @@
         {
             "component": "Title",
             "data": {
-                "label": "Ubicaciones"
+                "label":"Ubicaciones"
             }
         },
         {
             "component": "Texts",
             "data": {
-                "label": "Puedes encontrarme en los siguientes puntos!"
+                "label":"Puedes encontrarme en los siguientes puntos!"
+            }
+        },
+        {
+            "component": "Location",
+            "data": {
+                "label": "Sede principal",
+                "location": "Av. Cavildo 2093",
+                "link_map": "https://www.google.com/maps/place/El+Ateneo/@-34.5620988,-58.4913617,14z/data=!4m10!1m2!2m1!1sel+ateneo!3m6!1s0x95bcb5d384c861bf:0xb80e9006506efdb5!8m2!3d-34.5620988!4d-58.4563428!15sCgllbCBhdGVuZW8iA4gBAVoLIgllbCBhdGVuZW-SAQpib29rX3N0b3JlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5wYkhKTGRUQlJSUkFC4AEA!16s%2Fg%2F1tj74st8",
+                "phone_number":"+54 9 11 5379-5454",
+                "description": "Esta al lado de un chino"
+            }
+        },
+        {
+            "component": "Location",
+            "data": {
+                "label": "Sede en el Obelisco",
+                "location": "Av.9 de Julio 11093",
+                "link_map": "https://www.google.com/maps/place/El+Ateneo/@-34.5620988,-58.4913617,14z/data=!4m10!1m2!2m1!1sel+ateneo!3m6!1s0x95bcb5d384c861bf:0xb80e9006506efdb5!8m2!3d-34.5620988!4d-58.4563428!15sCgllbCBhdGVuZW8iA4gBAVoLIgllbCBhdGVuZW-SAQpib29rX3N0b3JlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5wYkhKTGRUQlJSUkFC4AEA!16s%2Fg%2F1tj74st8",
+                "phone_number":"+54 9 11 5379-5454",
+                "description": "Esta al lado de un chino"
+            }
+        },
+        {
+            "component": "Location",
+            "data": {
+                "label": "Nueva sede",
+                "location": "Uruguay 1053",
+                "link_map": "https://www.google.com/maps/place/El+Ateneo/@-34.5620988,-58.4913617,14z/data=!4m10!1m2!2m1!1sel+ateneo!3m6!1s0x95bcb5d384c861bf:0xb80e9006506efdb5!8m2!3d-34.5620988!4d-58.4563428!15sCgllbCBhdGVuZW8iA4gBAVoLIgllbCBhdGVuZW-SAQpib29rX3N0b3JlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5wYkhKTGRUQlJSUkFC4AEA!16s%2Fg%2F1tj74st8",
+                "phone_number":"+54 9 11 5379-5454",
+                "description": "Esta al lado de un chino"
+            }
+        },
+                {
+            "component": "Margin",
+            "data": {
+                "x": 1,
+                "y": 0
+            }
+        },
+        {
+            "component": "Title",
+            "data": {
+                "label":"Colaboradores"
             }
         }
     ]

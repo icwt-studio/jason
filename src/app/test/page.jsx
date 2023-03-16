@@ -2,6 +2,15 @@
 
 import { Grid, Card, Text } from "@nextui-org/react";
 export default function Test() {
+
+
+
+  const pets = ['cat', 'dog', 'bat'];
+
+  console.log(pets.includes('cat'));
+
+
+  
   const MockItem = ({ text }) => {
     return (
       <Card css={{ h: "$24", $$cardColor: '$colors$primary' }}>
