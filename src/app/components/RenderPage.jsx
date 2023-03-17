@@ -34,7 +34,7 @@ export default function RenderPage (props) {
             
             const JasonComponent = components[item.component.toLowerCase()];
             
-            if (components.hasOwnProperty(`${item.component.toLowerCase()}`)) {
+            if (components.hasOwnProperty(`${item.component.toLowerCase()}`)) {                           // Chequea que el componente del .json exista dentro de la lista
               return (
                 <JasonComponent data={item.data}/>
               )
