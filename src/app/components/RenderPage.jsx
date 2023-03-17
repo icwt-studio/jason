@@ -40,7 +40,6 @@ export default function RenderPage (props) {
               )
             }
             
-            
           })}
         </Grid>
       </Row>
