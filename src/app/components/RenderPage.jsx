@@ -1,6 +1,7 @@
 'use client'
 
 import { Row, Grid } from "@nextui-org/react"
+
 import SimpleItem from "./jason/SimpleItem"
 import LinkButton from "./jason/LinkButton"
 import Header from "./jason/Header"
@@ -9,7 +10,7 @@ import Badges from "./jason/Badges"
 import Title from "./jason/Title"
 import Margin from "./jason/Margin"
 import Texts from "./jason/Texts"
-
+import Grids from "./jason/Grids"
 
 const components = {
   simpleitem: SimpleItem,
@@ -19,7 +20,8 @@ const components = {
   badges: Badges,
   title: Title,
   margin: Margin,
-  texts: Texts
+  texts: Texts,
+  grids: Grids
 }
 
 export default function RenderPage (props) {
@@ -28,8 +30,8 @@ export default function RenderPage (props) {
     
   return (
     <>
-      <Row justify="center" align="center" css={{ background: '$bodyColor' }}>
-        <Grid css={{marginBottom:'40px', maxWidth:'600px'}}>
+      {/* <Row justify="center" align="center" css={{ background: '$bodyColor' }}> */}
+        <Grid>
           {items.map(item => {
             
             const JasonComponent = components[item.component.toLowerCase()];
@@ -42,7 +44,7 @@ export default function RenderPage (props) {
             
           })}
         </Grid>
-      </Row>
+      {/* </Row> */}
     </>
   )
 }

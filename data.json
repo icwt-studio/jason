@@ -2,6 +2,55 @@
     "template": "mint",
     "items": [
         {
+            "component": "Grids",
+            "data": {
+                "columns": [
+                    {
+                        "items": [
+                            {
+                                "component": "SimpleItem",
+                                "data": {
+                                    "label": "Clase de React.js",
+                                    "description": "No leas la documentacion oficial, yo te explico!",
+                                    "price": 7000,
+                                    "currency": "ARS",
+                                    "link": "https://reactjs.org/docs/getting-started.html",
+                                    "link_img":"https://sigdeletras.com/images/blog/202004_react_leaflet/react.png"
+                                }
+                            },
+                            {
+                                "component": "SimpleItem",
+                                "data": {
+                                    "label": "Clase de React.js",
+                                    "description": "No leas la documentacion oficial, yo te explico!",
+                                    "price": 7000,
+                                    "currency": "ARS",
+                                    "link": "https://reactjs.org/docs/getting-started.html",
+                                    "link_img":"https://sigdeletras.com/images/blog/202004_react_leaflet/react.png"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "items": [
+                            {
+                                "component": "SimpleItem",
+                                "data": {
+                                    "label": "Clase de React.js",
+                                    "description": "No leas la documentacion oficial, yo te explico!",
+                                    "price": 7000,
+                                    "currency": "ARS",
+                                    "link": "https://reactjs.org/docs/getting-started.html",
+                                    "link_img":"https://sigdeletras.com/images/blog/202004_react_leaflet/react.png"
+                                }
+                            }
+                        ]
+                    }
+                ]
+
+            }
+        },
+        {
             "component": "Header",
             "data": {
                 "link_img": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/12/16786213985824.jpg",
