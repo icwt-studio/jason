@@ -4,8 +4,10 @@
         {
             "component": "Grids",
             "data": {
+                "gap": 1,
                 "columns": [
                     {
+                        "width": 6,
                         "items": [
                             {
                                 "component": "SimpleItem",
@@ -32,6 +34,7 @@
                         ]
                     },
                     {
+                        "width": 6,
                         "items": [
                             {
                                 "component": "SimpleItem",

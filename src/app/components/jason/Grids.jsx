@@ -10,10 +10,10 @@ export default function Grids (props) {
     const data = props.data;
 
     return (
-        <Grid.Container gap={1} justify="center">
+        <Grid.Container gap={data.gap} justify="center">
             {data.columns.map(column => {
                 return(
-                    <Grid direction="column" xs={6}>
+                    <Grid direction="column" xs={column.width}>
                         <RenderPage data={column} />
                     </Grid>
                 )
