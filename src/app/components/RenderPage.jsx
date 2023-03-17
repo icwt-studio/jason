@@ -30,10 +30,8 @@ export default function RenderPage (props) {
     
   return (
     <>
-      {/* <Row justify="center" align="center" css={{ background: '$bodyColor' }}> */}
         <Grid>
           {items.map(item => {
-            
             const JasonComponent = components[item.component.toLowerCase()];
             
             if (components.hasOwnProperty(`${item.component.toLowerCase()}`)) {                           // Chequea que el componente del .json exista dentro de la lista
@@ -41,10 +39,8 @@ export default function RenderPage (props) {
                 <JasonComponent data={item.data}/>
               )
             }
-            
           })}
         </Grid>
-      {/* </Row> */}
     </>
   )
 }
