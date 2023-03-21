@@ -2,7 +2,7 @@
     "template": "mint",
     "items": [
         {
-            "component": "Grids",
+            "component": "GridColumns",
             "data": {
                 "gap": 1,
                 "columns": [
@@ -34,7 +34,23 @@
                         ]
                     },
                     {
-                        "width": 6,
+                        "width": 3,
+                        "items": [
+                            {
+                                "component": "SimpleItem",
+                                "data": {
+                                    "label": "Clase de React.js",
+                                    "description": "No leas la documentacion oficial, yo te explico!",
+                                    "price": 7000,
+                                    "currency": "ARS",
+                                    "link": "https://reactjs.org/docs/getting-started.html",
+                                    "link_img":"https://sigdeletras.com/images/blog/202004_react_leaflet/react.png"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "width": 3,
                         "items": [
                             {
                                 "component": "SimpleItem",

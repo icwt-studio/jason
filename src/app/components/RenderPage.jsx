@@ -10,7 +10,7 @@ import Badges from "./jason/Badges"
 import Title from "./jason/Title"
 import Margin from "./jason/Margin"
 import Texts from "./jason/Texts"
-import Grids from "./jason/Grids"
+import GridColumns from "./jason/GridColumns"
 
 const components = {
   simpleitem: SimpleItem,
@@ -21,7 +21,7 @@ const components = {
   title: Title,
   margin: Margin,
   texts: Texts,
-  grids: Grids
+  gridcolumns: GridColumns
 }
 
 export default function RenderPage (props) {

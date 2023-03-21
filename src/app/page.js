@@ -8,7 +8,7 @@ export default async function Home() {
   const data = await getData();
   console.log(data);
   return (
-    <main className={styles.main}>
+    <main>
       <RenderPage data={data} />
     </main>
   )

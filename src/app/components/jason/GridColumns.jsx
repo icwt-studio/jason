@@ -5,7 +5,7 @@ import { Grid } from "@nextui-org/react"
 import RenderPage from "../RenderPage";
 
 
-export default function Grids (props) {
+export default function GridColumns (props) {
 
     const data = props.data;
 
