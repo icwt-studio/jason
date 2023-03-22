@@ -9,7 +9,7 @@ export default function Badges (props) {
         <Row justify="center" align="center" css={{marginTop:'15px',width:'100%'}}>
             {data.map((badge) => {
                 return(
-                    <Badge css={{backgroundColor:"$badgesColor", border:"$badgesBorder", borderRadius:"5px", margin:'0 2px'}}>{badge}</Badge>
+                    <Badge css={{backgroundColor:"$badgesColor", border:"$badgesBorder", borderRadius:"5px", margin:'0 2px', color:'$badgesText', borderRadius:'$badgesBorderRadius'}}>{badge}</Badge>
                 )
             })}
         </Row>

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Simpledata(props) {
     const data = props.data;
-    console.log("Simpledata!!!");
+
     return (
       <Card css={{ w: "100%", h: "300px" ,marginTop:"15px" }}>
       <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>

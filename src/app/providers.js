@@ -1,11 +1,12 @@
 'use client'
 
 import { useServerInsertedHTML } from 'next/navigation'
-import { NextUIProvider, CssBaseline, createTheme, Container } from '@nextui-org/react';
+import { NextUIProvider, CssBaseline, createTheme, Container } from '@nextui-org/react'
 
-
-export default function Providers({ children }) {
+export default function Providers({ children, props }) {
   
+  const data = props;
+
   useServerInsertedHTML(() => {
     return <>{CssBaseline.flush()}</>
   })
@@ -15,44 +16,62 @@ export default function Providers({ children }) {
     theme: {
       colors: {
         bodyColor:'linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);',
+
         link: '#e3a0f0',
+
         headerColor: "#fff",
+
         linkButtonColor: '#23777f',
+        linkButtonBorderRadius:'5px',
+
         locationColor: 'transparent',
         locationBorder: "1px solid #fff;",
         locationText: "#fff",
+        locationBorderRadius: '5px',
+
         badgesColor: "transparent",
         badgesBorder: '1px solid #fff',
-        pepe: "5px"
+        badgesText: '#fff',
+        badgesBorderRadius: '5px',
       },
       space: {},
-      fonts: {}
-  }
+      fonts: {
+      }
+    }
   })
 
-  const red = createTheme({
+  const vibes90s = createTheme({
     type: "light", // it could be "light" or "dark"
     theme: {
       colors: {
-        bodyColor:'red',
-        link: '#333',
-        headerColor: "#153",
-        linkButtonColor: '#23567f',
-        locationColor: 'transparent',
-        locationBorder: "1px solid #f58;",
-        locationText: "#67d",
+        bodyColor:'#fd9ec1',
+
+        link: '#00ad80',
+
+        headerColor: "#ffe48b",
+
+        linkButtonColor: '#9674cd',
+        linkButtonBorderRadius:'0px',
+
+        locationColor: '#9674cd',
+        locationBorder: "1px solid #111",
+        locationText: "#ffe48b",
+        locationBorderRadius: '0px',
+
         badgesColor: "transparent",
-        badgesBorder: '1px solid #fdf',
-        pepe: "5px"
+        badgesBorder: '1px solid #ffe48b',
+        badgesText: '#ffe48b',
+        badgesBorderRadius: '0px',
       },
       space: {},
       fonts: {}
-  }
+    }
   })
+
 
   return (
     <>
-      <NextUIProvider theme={mint}>
+      <NextUIProvider theme={vibes90s}>
         <Container css={{maxWidth:'none', overflow:'auto', background:"$bodyColor"}}>
             {children}
         </Container>

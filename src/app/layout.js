@@ -1,17 +1,23 @@
 import Providers from './providers'
 import './globals.css'
 
+import { DotGothic16 } from 'next/font/google'
+
+const fontGoogle = DotGothic16({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 export default async function RootLayout({ children }) {
   const data = await getData();
-
+    
   return (
     <html lang="en">
       <head>
         <title>{data.title}</title>
         <meta desctiption={data.description} />
       </head>
-      <body> <Providers>{children}</Providers></body>
+      <body className={fontGoogle.className}> <Providers>{children}</Providers></body>
     </html>
   )
 }

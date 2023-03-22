@@ -11,6 +11,7 @@ import Title from "./jason/Title"
 import Margin from "./jason/Margin"
 import Texts from "./jason/Texts"
 import GridColumns from "./jason/GridColumns"
+import { Prosto_One } from "next/font/google"
 
 const components = {
   simpleitem: SimpleItem,
@@ -27,7 +28,8 @@ const components = {
 export default function RenderPage (props) {
   
   const items = props.data.items;
-    
+  const template = props.data.template;
+
   return (
     <>
         <Grid>
@@ -36,7 +38,7 @@ export default function RenderPage (props) {
             
             if (components.hasOwnProperty(`${item.component.toLowerCase()}`)) {                           // Chequea que el componente del .json exista dentro de la lista
               return (
-                <JasonComponent data={item.data}/>
+                <JasonComponent data={item.data} template={template}/>
               )
             }
           })}

@@ -8,7 +8,7 @@ export default function LinkButton(props) {
 
   return (
     <Link href={data.link} target="_blank">
-      <Button css={{marginTop:'15px',width:'100%', backgroundColor:"$linkButtonColor"}}>
+      <Button css={{marginTop:'15px',width:'100%', backgroundColor:"$linkButtonColor", borderRadius:'$linkButtonBorderRadius'}}>
          {data.label}
       </Button>
     </Link>
