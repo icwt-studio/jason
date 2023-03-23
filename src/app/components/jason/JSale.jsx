@@ -4,7 +4,7 @@ import { Button, Card, Text, Row, Col } from '@nextui-org/react';
 import Link from 'next/link';
 import WindowsBar from "./templates/vibes90s/windowsBar"
 
-export default function Sale(props) {
+export default function JSale(props) {
     const data = props.data;
     const template = props.template;
 
@@ -62,7 +62,7 @@ export default function Sale(props) {
                       flat
                       auto
                       rounded
-                      css={{ color: "#94f9f0", bg: "#94f9f026", backgroundColor:'$saleButtonColor'}}
+                      css={{ color: "#94f9f0", bg: "#94f9f026", backgroundColor:'$saleButtonColor', borderRadius:'$saleBorderRadius'}}
                     >
                       <Text
                         css={{ color: "inherit" }}

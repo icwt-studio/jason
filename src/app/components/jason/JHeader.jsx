@@ -1,8 +1,9 @@
 'use client'
-import React, { useState, useEffect } from 'react';
+
 import { Avatar,Grid,Image, Card,Text, Row, Col } from '@nextui-org/react';
-export default function Header(props) {
-    const data = props.data;
+
+export default function JHeader(props) {
+  const data = props.data;
 
   return (
     <Row justify="center" align="center" css={{marginTop:'20px'}}>

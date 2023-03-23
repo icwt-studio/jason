@@ -1,10 +1,11 @@
 'use client'
+
 import Link from "next/link";
 import WindowsBar from "./templates/vibes90s/windowsBar"
 import { Card, Row, Text } from '@nextui-org/react';
 
 
-export default function Location(props) {
+export default function JLocation(props) {
     const data = props.data;
     const template = props.template;
 

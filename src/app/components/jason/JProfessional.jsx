@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { Card, Row, Text, Avatar } from '@nextui-org/react';
 
-export default function Location(props) {
+export default function JProfessional(props) {
   const data = props.data;
 
   return (

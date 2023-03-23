@@ -1,7 +1,7 @@
 'use client'
 import { Text } from "@nextui-org/react"
 
-export default function Texts(props) {
+export default function JTexts(props) {
     const data = props.data;
 
     return(

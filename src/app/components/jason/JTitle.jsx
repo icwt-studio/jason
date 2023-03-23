@@ -1,7 +1,8 @@
 'use client'
+
 import { Text, Row } from "@nextui-org/react"
 
-export default function Title (props) {
+export default function JTitle (props) {
     const data = props.data;
 
     return(

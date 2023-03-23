@@ -3,26 +3,28 @@
 import { Row, Grid } from "@nextui-org/react"
 import { Prosto_One } from "next/font/google"
 
-import Sale from "./jason/Sale"
-import LinkButton from "./jason/LinkButton"
-import Header from "./jason/Header"
-import Location from "./jason/Location"
-import Badges from "./jason/Badges"
-import Title from "./jason/Title"
-import Margin from "./jason/Margin"
-import Texts from "./jason/Texts"
-import GridColumns from "./jason/GridColumns"
+import JBadges from "./jason/JBadges"
+import JGrid from "./jason/JGrid"
+import JSale from "./jason/JSale"
+import JLinkButton from "./jason/JLinkButton"
+import JHeader from "./jason/JHeader"
+import JLocation from "./jason/JLocation"
+import JTitle from "./jason/JTitle"
+import JMargin from "./jason/JMargin"
+import JText from "./jason/JText"
+import JList from "./jason/JList"
 
 const components = {
-  sale: Sale,
-  linkbutton: LinkButton,
-  header: Header,
-  location: Location,
-  badges: Badges,
-  title: Title,
-  margin: Margin,
-  texts: Texts,
-  gridcolumns: GridColumns
+  jbadges: JBadges,
+  jgrid: JGrid,
+  jsale: JSale,
+  jlinkbutton: JLinkButton,
+  jheader: JHeader,
+  jlocation: JLocation,
+  jtitle: JTitle,
+  jmargin: JMargin,
+  jtexts: JText,
+  jlist: JList
 }
 
 export default function RenderPage (props) {

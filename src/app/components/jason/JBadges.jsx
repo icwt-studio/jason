@@ -2,7 +2,7 @@
 
 import { Badge, Row } from "@nextui-org/react"
 
-export default function Badges (props) {
+export default function JBadges (props) {
     const data = props.data.list;
 
     return(

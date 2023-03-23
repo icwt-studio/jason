@@ -2,7 +2,13 @@
     "template": "vibes90s",
     "items": [
         {
-            "component": "Header",
+            "component": "JList",
+            "data": {
+                "list":["Perro", "Pajaro", "Gato"]
+            }
+        },
+        {
+            "component": "JHeader",
             "data": {
                 "link_img": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/12/16786213985824.jpg",
                 "name": "Nicolas Lynch",
@@ -10,20 +16,20 @@
             }
         },
         {
-            "component": "Badges",
+            "component": "JBadges",
             "data": {
                 "list":["React", "Next", "Express", "Node"]
             }
         },
         {
-            "component": "Margin",
+            "component": "JMargin",
             "data": {
                 "x": 0,
                 "y": 1
             }
         },
         {
-            "component": "LinkButton",
+            "component": "JLinkButton",
             "data": {
                 "label": "Portfolio",
                 "link": "https://nicolaslynch.com/",
@@ -32,7 +38,7 @@
             }
         },
         {
-            "component": "LinkButton",
+            "component": "JLinkButton",
             "data": {
                 "label": "Instagram",
                 "link": "https://www.instagram.com/nicolaslynch_/",
@@ -41,7 +47,7 @@
             }
         },
         {
-            "component": "LinkButton",
+            "component": "JLinkButton",
             "data": {
                 "label": "TikTok",
                 "link": "https://www.instagram.com/nicolaslynch_/",
@@ -50,7 +56,7 @@
             }
         },
         {
-            "component": "LinkButton",
+            "component": "JLinkButton",
             "data": {
                 "label": "WhatsApp",
                 "link": "https://api.whatsapp.com/send?phone=5491173621834&text=Hola",
@@ -59,20 +65,20 @@
             }
         },
         {
-            "component": "Margin",
+            "component": "JMargin",
             "data": {
                 "x": 0,
                 "y": 1
             }
         },
          {
-            "component": "Title",
+            "component": "JTitle",
             "data": {
                 "label":"Mis servicios"
             }
         },
         {
-            "component": "Sale",
+            "component": "JSale",
             "data": {
                 "label": "Clase de Next.js",
                 "description": "No leas la documentacion oficial, yo te explico!",
@@ -83,7 +89,7 @@
             }
         },
         {
-            "component": "Sale",
+            "component": "JSale",
             "data": {
                 "label": "Clase de React.js",
                 "description": "No leas la documentacion oficial, yo te explico!",
@@ -94,26 +100,26 @@
             }
         },
          {
-            "component": "Margin",
+            "component": "JMargin",
             "data": {
                 "x": 0,
                 "y": 1
             }
         },
         {
-            "component": "Title",
+            "component": "JTitle",
             "data": {
                 "label":"Ubicaciones"
             }
         },
         {
-            "component": "Texts",
+            "component": "JTexts",
             "data": {
                 "label":"Puedes encontrarme en los siguientes puntos!"
             }
         },
         {
-            "component": "Location",
+            "component": "JLocation",
             "data": {
                 "label": "Sede principal",
                 "location": "Av. Cavildo 2093",
@@ -123,7 +129,7 @@
             }
         },
         {
-            "component": "Location",
+            "component": "JLocation",
             "data": {
                 "label": "Sede en el Obelisco",
                 "location": "Av.9 de Julio 11093",
@@ -133,7 +139,7 @@
             }
         },
         {
-            "component": "Location",
+            "component": "JLocation",
             "data": {
                 "label": "Nueva sede",
                 "location": "Uruguay 1053",
@@ -143,14 +149,14 @@
             }
         },
                 {
-            "component": "Margin",
+            "component": "JMargin",
             "data": {
                 "x": 1,
                 "y": 0
             }
         },
         {
-            "component": "Title",
+            "component": "JTitle",
             "data": {
                 "label":"Colaboradores"
             }
