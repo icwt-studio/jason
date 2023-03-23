@@ -62,6 +62,10 @@ export default function Providers({ children, props }) {
         badgesBorder: '1px solid #ffe48b',
         badgesText: '#ffe48b',
         badgesBorderRadius: '0px',
+
+        saleBorderRadius: '0px',
+        saleColor: '#9674cd', 
+        saleButtonColor: '#c097ff'
       },
       space: {},
       fonts: {}

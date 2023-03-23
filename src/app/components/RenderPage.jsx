@@ -1,8 +1,9 @@
 'use client'
 
 import { Row, Grid } from "@nextui-org/react"
+import { Prosto_One } from "next/font/google"
 
-import SimpleItem from "./jason/SimpleItem"
+import Sale from "./jason/Sale"
 import LinkButton from "./jason/LinkButton"
 import Header from "./jason/Header"
 import Location from "./jason/Location"
@@ -11,10 +12,9 @@ import Title from "./jason/Title"
 import Margin from "./jason/Margin"
 import Texts from "./jason/Texts"
 import GridColumns from "./jason/GridColumns"
-import { Prosto_One } from "next/font/google"
 
 const components = {
-  simpleitem: SimpleItem,
+  sale: Sale,
   linkbutton: LinkButton,
   header: Header,
   location: Location,

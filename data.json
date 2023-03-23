@@ -72,7 +72,7 @@
             }
         },
         {
-            "component": "SimpleItem",
+            "component": "Sale",
             "data": {
                 "label": "Clase de Next.js",
                 "description": "No leas la documentacion oficial, yo te explico!",
@@ -83,7 +83,7 @@
             }
         },
         {
-            "component": "SimpleItem",
+            "component": "Sale",
             "data": {
                 "label": "Clase de React.js",
                 "description": "No leas la documentacion oficial, yo te explico!",

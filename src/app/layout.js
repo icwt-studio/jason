@@ -1,9 +1,9 @@
 import Providers from './providers'
 import './globals.css'
 
-import { DotGothic16 } from 'next/font/google'
+import { VT323 } from 'next/font/google'
 
-const fontGoogle = DotGothic16({
+const fontGoogle = VT323({
   weight: '400',
   subsets: ['latin'],
 })

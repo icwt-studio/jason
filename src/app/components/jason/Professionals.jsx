@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Card, Row, Text, Avatar } from '@nextui-org/react';
 
 export default function Location(props) {
-    const data = props.data;
+  const data = props.data;
 
   return (
     <Card css={{marginTop:'15px',width:'100%', direction:'row', justifyContent:"center", alignItems:"center", padding:"15px 15px"}}>
