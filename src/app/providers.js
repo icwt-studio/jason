@@ -19,7 +19,7 @@ export default function Providers({ children, props }) {
 
         link: '#e3a0f0',
 
-        headerColor: "#fff",
+        textColor: "#fff",
 
         linkButtonColor: '#23777f',
         linkButtonBorderRadius:'5px',
@@ -33,6 +33,9 @@ export default function Providers({ children, props }) {
         badgesBorder: '1px solid #fff',
         badgesText: '#fff',
         badgesBorderRadius: '5px',
+
+        saleBorderRadius: '300px',
+        saleButtonColor: '#94f9f026'
       },
       space: {},
       fonts: {
@@ -48,7 +51,7 @@ export default function Providers({ children, props }) {
 
         link: '#00ad80',
 
-        headerColor: "#ffe48b",
+        text: "#ffe48b",
 
         linkButtonColor: '#9674cd',
         linkButtonBorderRadius:'0px',
@@ -63,6 +66,7 @@ export default function Providers({ children, props }) {
         badgesText: '#ffe48b',
         badgesBorderRadius: '0px',
 
+        saleBorderRadius: '0px',
         saleBorderRadius: '0px',
         saleColor: '#9674cd', 
         saleButtonColor: '#c097ff'

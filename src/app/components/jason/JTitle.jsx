@@ -7,7 +7,7 @@ export default function JTitle (props) {
 
     return(
         <Row justify="center" align="center">
-            <Text css={{marginBottom:'0px', marginTop:'8px', color:'$headerColor'}} h3>{data.label}</Text>
+            <Text css={{marginBottom:'0px', marginTop:'8px', color:'$text'}} h3>{data.label}</Text>
         </Row>
     )
 }
