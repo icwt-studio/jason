@@ -1,16 +1,18 @@
 'use client'
 
-import { Row } from "@nextui-org/react";
+import { Row, Text } from "@nextui-org/react";
 
 export default function JList (props) {
-    const data = props.data.list;
+    const data = props.data;
 
     return(
-        <Row justify="center" align="center" css={{marginTop:'15px',width:'100%'}}>
-            <ul>
-                {data.map((item) => {
+        <Row justify={data.aling} align="center" css={{marginTop:'0px',width:'100%'}}>
+            <ul style={{listStyle: data.style, marginTop:"0", marginBottom:"0"}}>
+                {data.list.map((item) => {
                     return(
-                        <li>{item}</li>
+                        <li key={item} style={{marginBottom:"0"}}>
+                            {item}
+                        </li>
                     )
                 })}
             </ul>

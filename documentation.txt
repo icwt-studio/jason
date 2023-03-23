@@ -1,0 +1,15 @@
+_____Estructure:_____
+
+{
+    "template": "",             // Name of one of the default templates   
+    "items": []                 // Inside there will be a list of the default components
+}
+
+
+
+
+_____List of components:_____
+
+
+
+

@@ -2,9 +2,53 @@
     "template": "vibes90s",
     "items": [
         {
+            "component": "JTexts",
+            "data": {
+                "aling": "left",
+                "label":"Esto es un texto"
+            }
+        },
+        {
+            "component": "JH1",
+            "data": {
+                "aling": "left",
+                "label":"Titulo <h1>"
+            }
+        },
+        {
+            "component": "JH2",
+            "data": {
+                "aling": "left",
+                "label":"Titulo <h2>"
+            }
+        },
+        {
+            "component": "JH3",
+            "data": {
+                "aling": "left",
+                "label":"Titulo <h3>"
+            }
+        },
+        {
+            "component": "JH4",
+            "data": {
+                "aling": "left",
+                "label":"Titulo <h4>"
+            }
+        },
+        {
+            "component": "JTexts",
+            "data": {
+                "aling": "left",
+                "label":"Puedes encontrarme en los siguientes puntos!"
+            }
+        },
+        {
             "component": "JList",
             "data": {
-                "list":["Perro", "Pajaro", "Gato"]
+                "aling": "left",
+                "style": "auto",
+                "list": ["Perro", "Pajaro", "Gato"]
             }
         },
         {
@@ -17,6 +61,7 @@
         },
         {
             "component": "JBadges",
+            "aling": "left",
             "data": {
                 "list":["React", "Next", "Express", "Node"]
             }
@@ -107,15 +152,16 @@
             }
         },
         {
-            "component": "JTitle",
+            "component": "JH3",
             "data": {
-                "label":"Ubicaciones"
+                "label": "Ubicaciones"
             }
         },
         {
             "component": "JTexts",
             "data": {
-                "label":"Puedes encontrarme en los siguientes puntos!"
+                "aling": "center",
+                "label": "Puedes encontrarme en los siguientes puntos!"
             }
         },
         {
@@ -124,7 +170,7 @@
                 "label": "Sede principal",
                 "location": "Av. Cavildo 2093",
                 "link_map": "https://www.google.com/maps/place/El+Ateneo/@-34.5620988,-58.4913617,14z/data=!4m10!1m2!2m1!1sel+ateneo!3m6!1s0x95bcb5d384c861bf:0xb80e9006506efdb5!8m2!3d-34.5620988!4d-58.4563428!15sCgllbCBhdGVuZW8iA4gBAVoLIgllbCBhdGVuZW-SAQpib29rX3N0b3JlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5wYkhKTGRUQlJSUkFC4AEA!16s%2Fg%2F1tj74st8",
-                "phone_number":"+54 9 11 5379-5454",
+                "phone_number": "+54 9 11 5379-5454",
                 "description": "Esta al lado de un chino"
             }
         },
@@ -156,7 +202,7 @@
             }
         },
         {
-            "component": "JTitle",
+            "component": "JH3",
             "data": {
                 "label":"Colaboradores"
             }

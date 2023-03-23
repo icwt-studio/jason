@@ -13,6 +13,10 @@ import JTitle from "./jason/JTitle"
 import JMargin from "./jason/JMargin"
 import JText from "./jason/JText"
 import JList from "./jason/JList"
+import JH1 from "./jason/JH1"
+import JH2 from "./jason/JH2"
+import JH3 from "./jason/JH3"
+import JH4 from "./jason/JH4"
 
 const components = {
   jbadges: JBadges,
@@ -24,7 +28,11 @@ const components = {
   jtitle: JTitle,
   jmargin: JMargin,
   jtexts: JText,
-  jlist: JList
+  jlist: JList,
+  jh1: JH1,
+  jh2: JH2,
+  jh3: JH3,
+  jh4: JH4
 }
 
 export default function RenderPage (props) {

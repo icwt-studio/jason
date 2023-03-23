@@ -76,7 +76,7 @@ export default function Providers({ children, props }) {
   return (
     <>
       <NextUIProvider theme={vibes90s}>
-        <Container css={{maxWidth:'none', overflow:'auto', background:"$bodyColor"}}>
+        <Container css={{maxWidth:'none', overflow:'auto', background:"$bodyColor", minHeight:'100vh'}}>
             {children}
         </Container>
       </NextUIProvider>
