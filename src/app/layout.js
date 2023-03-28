@@ -17,7 +17,8 @@ export default async function RootLayout({ children }) {
         <title>{data.title}</title>
         <meta desctiption={data.description} />
       </head>
-      <body className={fontGoogle.className}> <Providers>{children}</Providers></body>
+      {/* <body className={fontGoogle.className}> <Providers>{children}</Providers></body> */}
+      <body> <Providers>{children}</Providers></body>
     </html>
   )
 }
