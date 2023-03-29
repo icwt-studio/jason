@@ -14,7 +14,8 @@ export default function JLinkButton(props) {
         marginTop:'15px',
         width:'100%', 
         backgroundColor:"$JLinkButton$background", 
-        borderRadius:'$JLinkButton$borderRadius'}}>
+        borderRadius:'$JLinkButton$borderRadius',
+        border:'$JLinkButton$border'}}>
         {data.label}
       </Button>
     </Link>

@@ -24,7 +24,10 @@ export default function Providers({ children, props }) {
       },
 
       body: {
-        background: '#fd9ec1'
+        background: '#fd9ec1',
+        backgroundImage: 'none',
+        backgroundPositionX: 'none',
+        backgroundSize: 'none'
       },
 
       JText: {
@@ -50,7 +53,8 @@ export default function Providers({ children, props }) {
       JLinkButton: {
         color: '#ffe48b',
         background: '#9674cd',
-        borderRadius: '0px'
+        borderRadius: '0px',
+        border: "none"
       },
 
       JHeader: {
@@ -77,7 +81,8 @@ export default function Providers({ children, props }) {
         color: '#ffe48d',
         background: '#9674cd',
         border: '1px solid #111',
-        borderRadius: '0px'
+        borderRadius: '0px',
+        boxShadow: 'none'
       }
     }
   })
@@ -92,7 +97,10 @@ export default function Providers({ children, props }) {
       },
 
       body: {
-        background: 'linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%)'
+        background: 'linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%)',
+        backgroundImage: 'none',
+        backgroundPositionX: 'none',
+        backgroundSize: 'none'
       },
 
       JHeader: {
@@ -123,7 +131,8 @@ export default function Providers({ children, props }) {
       JLinkButton: {
         color: '#fff',
         background: '#23777f',
-        borderRadius: '5px'
+        borderRadius: '5px',
+        border: "none"
       },
       
       JBadges: {
@@ -145,7 +154,8 @@ export default function Providers({ children, props }) {
         color: '#fff',
         background: 'transparent',
         border: '1px solid #fff',
-        borderRadius: '5px'
+        borderRadius: '5px',
+        boxShadow: 'none'
       }
     }
   })
@@ -160,7 +170,10 @@ export default function Providers({ children, props }) {
       },
 
       body: {
-        background: '#0c0549'
+        background: '#0c0549',
+        backgroundImage: 'none',
+        backgroundPositionX: 'none',
+        backgroundSize: 'none'
       },
 
       JText: {
@@ -191,7 +204,8 @@ export default function Providers({ children, props }) {
       JLinkButton: {
         color: '#fff',
         background: '#e330ef',
-        borderRadius: '8px 55px'
+        borderRadius: '8px 55px',
+        border: "none"
       },
       
       JBadges: {
@@ -213,7 +227,8 @@ export default function Providers({ children, props }) {
         color: '#fff',
         background: '#6b25ff',
         border: 'none',
-        borderRadius: '10px'
+        borderRadius: '10px',
+        boxShadow: 'none'
       }
     }
   })
@@ -228,7 +243,10 @@ export default function Providers({ children, props }) {
       },
 
       body: {
-        background: '#f1f4fb'
+        background: '#f1f4fb',
+        backgroundImage: 'none',
+        backgroundPositionX: 'none',
+        backgroundSize: 'none'
       },
 
       JText: {
@@ -259,7 +277,8 @@ export default function Providers({ children, props }) {
       JLinkButton: {
         color: '#fff',
         background: '#6157ea',
-        borderRadius: '500px'
+        borderRadius: '500px',
+        border: "none"
       },
       
       JBadges: {
@@ -281,7 +300,8 @@ export default function Providers({ children, props }) {
         color: '#fff',
         background: '#d2ddfa',
         border: 'none',
-        borderRadius: '30px'
+        borderRadius: '30px',
+        boxShadow: 'none'
       }
     }
   })
@@ -296,7 +316,10 @@ export default function Providers({ children, props }) {
       },
 
       body: {
-        background: '#3f51b5'
+        background: '#3f51b5',
+        backgroundImage: 'none',
+        backgroundPositionX: 'none',
+        backgroundSize: 'none'
       },
 
       JText: {
@@ -327,7 +350,8 @@ export default function Providers({ children, props }) {
       JLinkButton: {
         color: '#fff',
         background: '#0c144c',
-        borderRadius: '10px'
+        borderRadius: '10px',
+        border: "none"
       },
       
       JBadges: {
@@ -349,7 +373,8 @@ export default function Providers({ children, props }) {
         color: '#fff',
         background: 'transparent',
         border: '3px solid #2d3b8f',
-        borderRadius: '10px'
+        borderRadius: '10px',
+        boxShadow: 'none'
       }
     }
   })
@@ -364,7 +389,10 @@ export default function Providers({ children, props }) {
       },
 
       body: {
-        background: '#fff'
+        background: '#fff',
+        backgroundImage: 'none',
+        backgroundPositionX: 'none',
+        backgroundSize: 'none'
       },
 
       JText: {
@@ -395,7 +423,8 @@ export default function Providers({ children, props }) {
       JLinkButton: {
         color: '#fff',
         background: '#7c72ff',
-        borderRadius: '10px'
+        borderRadius: '10px',
+        border: "none"
       },
       
       JBadges: {
@@ -417,7 +446,8 @@ export default function Providers({ children, props }) {
         color: '#fff',
         background: '#7c72ff',
         border: 'none',
-        borderRadius: '10px'
+        borderRadius: '10px',
+        boxShadow: 'none'
       }
     }
   })
@@ -432,7 +462,10 @@ export default function Providers({ children, props }) {
       },
 
       body: {
-        background: '#6856ff'
+        background: '#6856ff',
+        backgroundImage: 'none',
+        backgroundPositionX: 'none',
+        backgroundSize: 'none'
       },
 
       JText: {
@@ -463,7 +496,8 @@ export default function Providers({ children, props }) {
       JLinkButton: {
         color: '#fff',
         background: '#e330ef',
-        borderRadius: '100px'
+        borderRadius: '100px',
+        border: "none"
       },
       
       JBadges: {
@@ -485,7 +519,8 @@ export default function Providers({ children, props }) {
         color: '#fff',
         background: '#7c72ff',
         border: 'none',
-        borderRadius: '10px'
+        borderRadius: '10px',
+        boxShadow: 'none'
       }
     }    
   })
@@ -500,7 +535,10 @@ export default function Providers({ children, props }) {
       },
 
       body: {
-        background: 'linear-gradient(90deg, rgba(180,58,96,1) 0%, rgba(253,29,29,1) 50%, rgba(254,201,127,1) 97%)'
+        background: 'linear-gradient(90deg, rgba(180,58,96,1) 0%, rgba(253,29,29,1) 50%, rgba(254,201,127,1) 97%)',
+        backgroundImage: 'none',
+        backgroundPositionX: 'none',
+        backgroundSize: 'none'
       },
 
       JText: {
@@ -531,7 +569,8 @@ export default function Providers({ children, props }) {
       JLinkButton: {
         color: '#fff',
         background: '#a02a46',
-        borderRadius: '10px'
+        borderRadius: '10px',
+        border: "none"
       },
       
       JBadges: {
@@ -553,7 +592,8 @@ export default function Providers({ children, props }) {
         color: '#fff',
         background: '#ff725c',
         border: 'none',
-        borderRadius: '10px'
+        borderRadius: '10px',
+        boxShadow: 'none'
       }
     }    
   })
@@ -568,7 +608,10 @@ export default function Providers({ children, props }) {
       },
 
       body: {
-        background: 'linear-gradient(45deg, #726193, #e37b7c 20%, #ffe4b4)'
+        background: 'linear-gradient(45deg, #726193, #e37b7c 20%, #ffe4b4)',
+        backgroundImage: 'none',
+        backgroundPositionX: 'none',
+        backgroundSize: 'none'
       },
 
       JText: {
@@ -599,7 +642,8 @@ export default function Providers({ children, props }) {
       JLinkButton: {
         color: '#fff',
         background: '#740343',
-        borderRadius: '100px'
+        borderRadius: '100px',
+        border: "none"
       },
       
       JBadges: {
@@ -622,8 +666,8 @@ export default function Providers({ children, props }) {
         background: '#ffffff08',
         border: 'none',
         borderRadius: '10px',
-        boxShadow: '0px 2px 8px #c474848f'
-        
+        boxShadow: '0px 2px 8px #c474848f',
+        boxShadow: 'none'
       }
     }    
   })
@@ -638,7 +682,10 @@ export default function Providers({ children, props }) {
       },
 
       body: {
-        background: '#e9dbff'
+        background: '#e9dbff',
+        backgroundImage: 'none',
+        backgroundPositionX: 'none',
+        backgroundSize: 'none'
       },
 
       JText: {
@@ -669,7 +716,8 @@ export default function Providers({ children, props }) {
       JLinkButton: {
         color: '#fff',
         background: '#af81ef',
-        borderRadius: '10px'
+        borderRadius: '10px',
+        border: "none"
       },
       
       JBadges: {
@@ -691,7 +739,154 @@ export default function Providers({ children, props }) {
         color: '#fff',
         background: '#671dcc',
         border: 'none',
-        borderRadius: '10px'
+        borderRadius: '10px',
+        boxShadow: 'none'
+      }
+    }    
+  })
+
+
+  const marble = createTheme({
+    type: "light", // it could be "light" or "dark"
+    theme: {
+      
+      colors: {
+        link: '#004b9c',
+      },
+
+      body: {
+        background: '#fff',
+        backgroundImage: 'url(https://wellb.app/images/v4/themes/marble.png)',
+        backgroundPositionX: '0px',
+        backgroundSize: '3800px'
+      },
+
+      JText: {
+        color: '#555762'
+      },
+
+      JH1: {
+        color: '#555762'
+      },
+
+      JH2: {
+        color: '#555762'
+      },
+
+      JH3: {
+        color: '#555762'
+      },
+
+      JH4: {
+        color: '#555762'
+      },
+
+      JHeader: {
+        titleColor: '#555762',
+        descriptionColor: '#555762'
+      },
+
+      JLinkButton: {
+        color: '#303030',
+        background: 'transparent',
+        borderRadius: '10px',
+        border: "2px solid #303030"
+      },
+      
+      JBadges: {
+        color: '#fff',
+        border: 'none',
+        borderRadius: '6px',
+        background: '#777777'
+      },
+      
+      JSale: {
+        borderRadius: '10px',
+        footerBackground: 'transparent',
+        buttonBackground: "#94f9f026",
+        buttonColor: '#94f9f0',
+        buttonBorderRadius: '10px'
+      },
+
+      JLocation: {
+        color: '#555762',
+        background: '#eeeeeee3',
+        border: 'none',
+        borderRadius: '10px',
+        boxShadow: 'none'
+      }
+    }    
+  })
+
+
+  const zen = createTheme({
+    type: "light", // it could be "light" or "dark"
+    theme: {
+      
+      colors: {
+        link: '#007bff',
+      },
+
+      body: {
+        background: '#fff',
+        backgroundImage: 'url(https://wellb.app/images/v4/themes/fishes.png)',
+        backgroundPositionX: '201px',
+        backgroundSize: 'none'
+      },
+
+      JText: {
+        color: '#fff'
+      },
+
+      JH1: {
+        color: '#fff'
+      },
+
+      JH2: {
+        color: '#fff'
+      },
+
+      JH3: {
+        color: '#fff'
+      },
+
+      JH4: {
+        color: '#fff'
+      },
+
+      JHeader: {
+        titleColor: '#fff',
+        descriptionColor: '#fff'
+      },
+
+      JLinkButton: {
+        color: '#fff',
+        background: '#c0392b',
+        borderRadius: '10px 35px',
+        border: "3px solid #8a3424"
+      },
+      
+      JBadges: {
+        color: '#fff',
+        border: 'none',
+        borderRadius: '100px',
+        background: '#7385a0'
+      },
+      
+      JSale: {
+        borderRadius: '30px',
+        footerBackground: 'transparent',
+        buttonBackground: "#94f9f026",
+        buttonColor: '#94f9f0',
+        buttonBorderRadius: '30px'
+      },
+
+      JLocation: {
+        color: '#333',
+        background: '#798cae',
+        border: 'none',
+        borderRadius: '30px',
+        boxShadow: 'none'
       }
     }    
   })
@@ -700,9 +895,17 @@ export default function Providers({ children, props }) {
 
   return (
     <>
-      <NextUIProvider theme={nature}>
-        <Container css={{maxWidth:'none', overflow:'auto', background:"$body$background", minHeight:'100vh'}}>
-            {children}
+      <NextUIProvider theme={zen}>
+        <Container css={{
+          maxWidth:'none',
+          overflow:'auto', 
+          minHeight:'100vh',
+          background:"$body$background",
+          backgroundImage:'$body$backgroundImage',
+          backgroundPositionX:'$body$backgroundPositionX',
+          backgroundSize:'$body$backgroundSize'
+          }}>
+          {children}
         </Container>
       </NextUIProvider>
     </>
