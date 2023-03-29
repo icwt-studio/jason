@@ -10,7 +10,7 @@ export default function JLocation(props) {
     const template = props.template;
 
     return (
-        <Card css={{marginTop:'15px',width:'100%',backgroundColor:"$JLocation$background", border:"$JLocation$border", borderRadius:'$JLocation$borderRadius'}}>
+        <Card css={{marginTop:'15px',width:'100%',backgroundColor:"$JLocation$background", border:"$JLocation$border", borderRadius:'$JLocation$borderRadius', filter:"none", boxShadow:"$JLocation$boxShadow"}}>
             <WindowsBar template={template}/>
             <div style={{padding:"15px 15px", display:"flex", flexDirection:'column', textAlign:'center'}}>
                 <Text css={{marginBottom: "3px", color:"$JLocation$color"}} h4>{data.label}</Text>
