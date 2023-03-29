@@ -18,10 +18,10 @@ export default function JHeader(props) {
           />
         </Row>
         <Row justify="center" align="center">
-          <Text css={{marginBottom: "0px", color:'$text'}} h3>{data.name}</Text>
+          <Text css={{marginBottom: "0px", color:'$JHeader$titleColor'}} h3>{data.name}</Text>
         </Row>
         <Row justify="center" align="center">
-            <Text css={{textAlign:"center", lineHeight: "21px", color:'$text'}}>
+            <Text css={{textAlign:"center", lineHeight: "21px", color:'$JHeader$descriptionColor'}}>
               {data.description}
             </Text>
         </Row>

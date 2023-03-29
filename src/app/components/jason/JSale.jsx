@@ -7,11 +7,11 @@ import WindowsBar from "./templates/vibes90s/windowsBar"
 export default function JSale(props) {
     const data = props.data;
     const template = props.template;
-
+    
     return (
-      <div style={{marginTop:"15px", border:"1px solid #111"}}>
+      <div style={{marginTop:"15px", border:template==="vibes90s" ? "1px solid #111" : "none"}}>
         <WindowsBar template={template}/>
-        <Card css={{ w: "100%", h: "300px", borderRadius:'$saleBorderRadius'}}>
+        <Card css={{ w: "100%", h: "300px", borderRadius:'$JSale$borderRadius'}}>
           <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
             <Col>
               
@@ -45,8 +45,8 @@ export default function JSale(props) {
               borderTop: "$borderWeights$light solid $gray800",
               bottom: 0,
               zIndex: 1,
-              borderRadius:'$saleBorderRadius',
-              backgroundColor:'$saleColor'
+              borderRadius:"0 0 $JSale$borderRadius $JSale$borderRadius",
+              backgroundColor:"$JSale$footerBackground"
             }}
           >
             <Row>
@@ -62,7 +62,7 @@ export default function JSale(props) {
                       flat
                       auto
                       rounded
-                      css={{ color: "#94f9f0", bg: "#94f9f026", backgroundColor:'$saleButtonColor', borderRadius:'$saleBorderRadius'}}
+                      css={{ color: "$JSale$buttonColor", backgroundColor:'$JSale$buttonBackground', borderRadius:'$JSale$buttonBorderRadius'}}
                     >
                       <Text
                         css={{ color: "inherit" }}

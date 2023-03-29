@@ -11,7 +11,9 @@ export default function JList (props) {
                 {data.list.map((item) => {
                     return(
                         <li key={item} style={{marginBottom:"0"}}>
-                            {item}
+                            <Text css={{color:'$JText$color'}}>
+                                {item}
+                            </Text>
                         </li>
                     )
                 })}

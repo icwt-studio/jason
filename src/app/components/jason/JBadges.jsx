@@ -9,7 +9,13 @@ export default function JBadges (props) {
         <Row justify={data.aling} align="center" css={{marginTop:'15px',width:'100%'}}>
             {data.list.map((badge) => {
                 return(
-                    <Badge css={{backgroundColor:"$badgesColor", border:"$badgesBorder", borderRadius:"5px", margin:'0 2px', color:'$badgesText', borderRadius:'$badgesBorderRadius'}}>
+                    <Badge css={{
+                        margin:'0 2px', 
+                        color:'$JBadges$color', 
+                        backgroundColor:"$JBadges$background", 
+                        border:"$JBadges$border", 
+                        borderRadius:'$JBadges$borderRadius',
+                        }}>
                         {badge}
                     </Badge>
                 )

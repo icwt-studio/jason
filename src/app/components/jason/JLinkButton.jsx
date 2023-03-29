@@ -9,8 +9,13 @@ export default function JLinkButton(props) {
 
   return (
     <Link href={data.link} target="_blank">
-      <Button css={{marginTop:'15px',width:'100%', backgroundColor:"$linkButtonColor", borderRadius:'$linkButtonBorderRadius'}}>
-         {data.label}
+      <Button css={{
+        color:'$JLinkButton$color',
+        marginTop:'15px',
+        width:'100%', 
+        backgroundColor:"$JLinkButton$background", 
+        borderRadius:'$JLinkButton$borderRadius'}}>
+        {data.label}
       </Button>
     </Link>
   )

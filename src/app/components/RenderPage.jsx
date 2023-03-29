@@ -9,7 +9,6 @@ import JSale from "./jason/JSale"
 import JLinkButton from "./jason/JLinkButton"
 import JHeader from "./jason/JHeader"
 import JLocation from "./jason/JLocation"
-import JTitle from "./jason/JTitle"
 import JMargin from "./jason/JMargin"
 import JText from "./jason/JText"
 import JList from "./jason/JList"
@@ -25,7 +24,6 @@ const components = {
   jlinkbutton: JLinkButton,
   jheader: JHeader,
   jlocation: JLocation,
-  jtitle: JTitle,
   jmargin: JMargin,
   jtexts: JText,
   jlist: JList,

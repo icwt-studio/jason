@@ -47,8 +47,8 @@
             "component": "JList",
             "data": {
                 "aling": "left",
-                "style": "auto",
-                "list": ["Perro", "Pajaro", "Gato"]
+                "style": "none",
+                "list": ["1 <li>", "2 <li>", "3 <li>"]
             }
         },
         {
@@ -117,7 +117,7 @@
             }
         },
          {
-            "component": "JTitle",
+            "component": "JH3",
             "data": {
                 "label":"Mis servicios"
             }
