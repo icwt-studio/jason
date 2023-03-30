@@ -7,7 +7,6 @@ import JBadges from "./jason/JBadges"
 import JGrid from "./jason/JGrid"
 import JSale from "./jason/JSale"
 import JLinkButton from "./jason/JLinkButton"
-import JHeader from "./jason/JHeader"
 import JLocation from "./jason/JLocation"
 import JMargin from "./jason/JMargin"
 import JText from "./jason/JText"
@@ -16,13 +15,14 @@ import JH1 from "./jason/JH1"
 import JH2 from "./jason/JH2"
 import JH3 from "./jason/JH3"
 import JH4 from "./jason/JH4"
+import JAvatar from "./jason/JAvatar"
+import jAvatar from "./jason/JAvatar"
 
 const components = {
   jbadges: JBadges,
   jgrid: JGrid,
   jsale: JSale,
   jlinkbutton: JLinkButton,
-  jheader: JHeader,
   jlocation: JLocation,
   jmargin: JMargin,
   jtexts: JText,
@@ -30,7 +30,8 @@ const components = {
   jh1: JH1,
   jh2: JH2,
   jh3: JH3,
-  jh4: JH4
+  jh4: JH4,
+  javatar: JAvatar
 }
 
 export default function RenderPage (props) {

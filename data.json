@@ -52,11 +52,24 @@
             }
         },
         {
-            "component": "JHeader",
+            "component": "JAvatar",
             "data": {
-                "link_img": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/12/16786213985824.jpg",
-                "name": "Nicolas Lynch",
-                "description": "Front-End Developer. Me suelen confundir con un tal Brad Pitt"
+                "aling": "center",
+                "link_img": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/12/16786213985824.jpg"
+            }
+        },
+        {
+            "component": "JH4",
+            "data": {
+                "aling": "center",
+                "label":"Nicolás Lynch"
+            }
+        },
+        {
+            "component": "JTexts",
+            "data": {
+                "aling": "center",
+                "label":"Front-End Developer. Me suelen confundir con un tal Brad Pitt"
             }
         },
         {

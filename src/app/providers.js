@@ -2,8 +2,6 @@
 
 import { useServerInsertedHTML } from 'next/navigation'
 import { NextUIProvider, CssBaseline, createTheme, Container } from '@nextui-org/react'
-import JHeader from './components/jason/JHeader';
-// import TableFooter from '@nextui-org/react/types/table/table-footer';
 
 export default function Providers({ children, props }) {
   
@@ -61,11 +59,6 @@ export default function Providers({ children, props }) {
         borderRadius: '0px',
         border: "none"
       },
-
-      JHeader: {
-        titleColor: '#ffe48b',
-        descriptionColor: '#ffe48b'
-      },
       
       JBadges: {
         color: '#ffe48b',
@@ -106,11 +99,6 @@ export default function Providers({ children, props }) {
         backgroundImage: 'none',
         backgroundPositionX: 'none',
         backgroundSize: 'none'
-      },
-
-      JHeader: {
-        titleColor: '#fff',
-        descriptionColor: '#fff'
       },
 
       JText: {
@@ -211,11 +199,6 @@ export default function Providers({ children, props }) {
         textShadow: 'none'
       },
 
-      JHeader: {
-        titleColor: '#fff',
-        descriptionColor: '#fff'
-      },
-
       JLinkButton: {
         color: '#fff',
         background: '#e330ef',
@@ -287,11 +270,6 @@ export default function Providers({ children, props }) {
       JH4: {
         color: '#555762',
         textShadow: 'none'
-      },
-
-      JHeader: {
-        titleColor: '#555762',
-        descriptionColor: '#555762'
       },
 
       JLinkButton: {
@@ -367,11 +345,6 @@ export default function Providers({ children, props }) {
         textShadow: 'none'
       },
 
-      JHeader: {
-        titleColor: '#fff',
-        descriptionColor: '#fff'
-      },
-
       JLinkButton: {
         color: '#fff',
         background: '#0c144c',
@@ -443,11 +416,6 @@ export default function Providers({ children, props }) {
       JH4: {
         color: '#5a577b',
         textShadow: 'none'
-      },
-
-      JHeader: {
-        titleColor: '#5a577b',
-        descriptionColor: '#5a577b'
       },
 
       JLinkButton: {
@@ -523,11 +491,6 @@ export default function Providers({ children, props }) {
         textShadow: 'none'
       },
 
-      JHeader: {
-        titleColor: '#fff',
-        descriptionColor: '#fff'
-      },
-
       JLinkButton: {
         color: '#fff',
         background: '#e330ef',
@@ -601,11 +564,6 @@ export default function Providers({ children, props }) {
         textShadow: 'none'
       },
 
-      JHeader: {
-        titleColor: '#fff',
-        descriptionColor: '#fff'
-      },
-
       JLinkButton: {
         color: '#fff',
         background: '#a02a46',
@@ -677,11 +635,6 @@ export default function Providers({ children, props }) {
       JH4: {
         color: '#fff',
         textShadow: 'none'
-      },
-
-      JHeader: {
-        titleColor: '#fff',
-        descriptionColor: '#fff'
       },
 
       JLinkButton: {
@@ -758,11 +711,6 @@ export default function Providers({ children, props }) {
         textShadow: 'none'
       },
 
-      JHeader: {
-        titleColor: '#732324',
-        descriptionColor: '#732324'
-      },
-
       JLinkButton: {
         color: '#fff',
         background: '#af81ef',
@@ -836,11 +784,6 @@ export default function Providers({ children, props }) {
         textShadow: 'none'
       },
 
-      JHeader: {
-        titleColor: '#555762',
-        descriptionColor: '#555762'
-      },
-
       JLinkButton: {
         color: '#303030',
         background: 'transparent',
@@ -912,11 +855,6 @@ export default function Providers({ children, props }) {
       JH4: {
         color: '#c0392b',
         textShadow: '0px 0px 3px #97afd1'
-      },
-
-      JHeader: {
-        titleColor: '#fff',
-        descriptionColor: '#fff'
       },
 
       JLinkButton: {

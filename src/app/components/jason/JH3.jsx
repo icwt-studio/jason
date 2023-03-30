@@ -6,8 +6,14 @@ export default function JH3 (props) {
     const data = props.data;
 
     return(
-        <Row justify={data.align} align="center">
-            <Text css={{marginBottom:'0px', marginTop:'8px', color:'$JH3$color', textShadow:'$JH3$textShadow'}} h3>{data.label}</Text>
-        </Row>
+        <Text css={{
+            marginTop:'8px', 
+            marginBottom:'0px', 
+            color:'$JH3$color', 
+            textAlign: data.aling,
+            textShadow:'$JH3$textShadow',
+            }} h3>
+            {data.label}
+        </Text>
     )
 }
