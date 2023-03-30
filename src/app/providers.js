@@ -31,23 +31,28 @@ export default function Providers({ children, props }) {
       },
 
       JText: {
-        color: '#ffe48b'
+        color: '#ffe48b',
+        textShadow: 'none'
       },
 
       JH1: {
-        color: '#ffe48b'
+        color: '#ffe48b',
+        textShadow: 'none'
       },
 
       JH2: {
-        color: '#ffe48b'
+        color: '#ffe48b',
+        textShadow: 'none'
       },
 
       JH3: {
-        color: '#ffe48b'
+        color: '#ffe48b',
+        textShadow: 'none'
       },
 
       JH4: {
-        color: '#ffe48b'
+        color: '#ffe48b',
+        textShadow: 'none'
       },
 
       JLinkButton: {
@@ -109,23 +114,28 @@ export default function Providers({ children, props }) {
       },
 
       JText: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH1: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH2: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH3: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH4: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JLinkButton: {
@@ -177,23 +187,28 @@ export default function Providers({ children, props }) {
       },
 
       JText: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH1: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH2: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH3: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH4: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JHeader: {
@@ -250,23 +265,28 @@ export default function Providers({ children, props }) {
       },
 
       JText: {
-        color: '#555762'
+        color: '#555762',
+        textShadow: 'none'
       },
 
       JH1: {
-        color: '#555762'
+        color: '#555762',
+        textShadow: 'none'
       },
 
       JH2: {
-        color: '#555762'
+        color: '#555762',
+        textShadow: 'none'
       },
 
       JH3: {
-        color: '#555762'
+        color: '#555762',
+        textShadow: 'none'
       },
 
       JH4: {
-        color: '#555762'
+        color: '#555762',
+        textShadow: 'none'
       },
 
       JHeader: {
@@ -323,23 +343,28 @@ export default function Providers({ children, props }) {
       },
 
       JText: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH1: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH2: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH3: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH4: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JHeader: {
@@ -396,23 +421,28 @@ export default function Providers({ children, props }) {
       },
 
       JText: {
-        color: '#5a577b'
+        color: '#5a577b',
+        textShadow: 'none'
       },
 
       JH1: {
-        color: '#5a577b'
+        color: '#5a577b',
+        textShadow: 'none'
       },
 
       JH2: {
-        color: '#5a577b'
+        color: '#5a577b',
+        textShadow: 'none'
       },
 
       JH3: {
-        color: '#5a577b'
+        color: '#5a577b',
+        textShadow: 'none'
       },
 
       JH4: {
-        color: '#5a577b'
+        color: '#5a577b',
+        textShadow: 'none'
       },
 
       JHeader: {
@@ -469,23 +499,28 @@ export default function Providers({ children, props }) {
       },
 
       JText: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH1: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH2: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH3: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH4: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JHeader: {
@@ -542,23 +577,28 @@ export default function Providers({ children, props }) {
       },
 
       JText: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH1: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH2: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH3: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH4: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JHeader: {
@@ -615,23 +655,28 @@ export default function Providers({ children, props }) {
       },
 
       JText: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH1: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH2: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH3: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JH4: {
-        color: '#fff'
+        color: '#fff',
+        textShadow: 'none'
       },
 
       JHeader: {
@@ -689,23 +734,28 @@ export default function Providers({ children, props }) {
       },
 
       JText: {
-        color: '#732324'
+        color: '#732324',
+        textShadow: 'none'
       },
 
       JH1: {
-        color: '#732324'
+        color: '#732324',
+        textShadow: 'none'
       },
 
       JH2: {
-        color: '#732324'
+        color: '#732324',
+        textShadow: 'none'
       },
 
       JH3: {
-        color: '#732324'
+        color: '#732324',
+        textShadow: 'none'
       },
 
       JH4: {
-        color: '#732324'
+        color: '#732324',
+        textShadow: 'none'
       },
 
       JHeader: {
@@ -762,23 +812,28 @@ export default function Providers({ children, props }) {
       },
 
       JText: {
-        color: '#555762'
+        color: '#555762',
+        textShadow: 'none'
       },
 
       JH1: {
-        color: '#555762'
+        color: '#555762',
+        textShadow: 'none'
       },
 
       JH2: {
-        color: '#555762'
+        color: '#555762',
+        textShadow: 'none'
       },
 
       JH3: {
-        color: '#555762'
+        color: '#555762',
+        textShadow: 'none'
       },
 
       JH4: {
-        color: '#555762'
+        color: '#555762',
+        textShadow: 'none'
       },
 
       JHeader: {
@@ -835,23 +890,28 @@ export default function Providers({ children, props }) {
       },
 
       JText: {
-        color: '#fff'
+        color: '#c0392b',
+        textShadow: '0px 0px 3px #97afd1'
       },
 
       JH1: {
-        color: '#fff'
+        color: '#c0392b',
+        textShadow: '0px 0px 3px #97afd1'
       },
 
       JH2: {
-        color: '#fff'
+        color: '#c0392b',
+        textShadow: '0px 0px 3px #97afd1'
       },
 
       JH3: {
-        color: '#fff'
+        color: '#c0392b',
+        textShadow: '0px 0px 3px #97afd1'
       },
 
       JH4: {
-        color: '#fff'
+        color: '#c0392b',
+        textShadow: '0px 0px 3px #97afd1'
       },
 
       JHeader: {

@@ -7,7 +7,7 @@ export default function JH2 (props) {
 
     return(
         <Row justify={data.align} align="center">
-            <Text css={{marginBottom:'0px', marginTop:'0px', color:'$JH2$color'}} h2>{data.label}</Text>
+            <Text css={{marginBottom:'0px', marginTop:'0px', color:'$JH2$color', textShadow:'$JH2$textShadow'}} h2>{data.label}</Text>
         </Row>
     )
 }
