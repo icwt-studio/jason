@@ -3,16 +3,14 @@
 import { useServerInsertedHTML } from 'next/navigation'
 import { NextUIProvider, CssBaseline, createTheme, Container } from '@nextui-org/react'
 
-export default function Providers({ children, props }) {
-  
-  const data = props;
 
+export default function Providers({ children}) {
+  
   useServerInsertedHTML(() => {
     return <>{CssBaseline.flush()}</>
   })
 
-
-
+  
   const vibes90s = createTheme({
     type: "light", // it could be "light" or "dark"
     theme: {
@@ -808,9 +806,82 @@ export default function Providers({ children, props }) {
 
       JLocation: {
         color: '#555762',
-        background: '#eeeeeee3',
+        background: 'transparent',
+        border: '1px solid #7f7c7c',
+        borderRadius: '10px',
+        boxShadow: 'none'
+      }
+    }    
+  })
+
+
+  const tropical = createTheme({
+    type: "light", // it could be "light" or "dark"
+    theme: {
+      
+      colors: {
+        link: '#007bff',
+      },
+
+      body: {
+        background: '#fff',
+        backgroundImage: 'url(https://wellb.app/images/v4/themes/tropical.jpeg)',
+        backgroundPositionX: '201px',
+        backgroundSize: '600px'
+      },
+
+      JText: {
+        color: '#555762',
+        textShadow: 'none'
+      },
+
+      JH1: {
+        color: '#555762',
+        textShadow: 'none'
+      },
+
+      JH2: {
+        color: '#555762',
+        textShadow: 'none'
+      },
+
+      JH3: {
+        color: '#555762',
+        textShadow: 'none'
+      },
+
+      JH4: {
+        color: '#555762',
+        textShadow: 'none'
+      },
+
+      JLinkButton: {
+        color: '#fff',
+        background: '#723b55',
+        borderRadius: '10px',
+        border: "none"
+      },
+      
+      JBadges: {
+        color: '#fff',
         border: 'none',
         borderRadius: '10px',
+        background: '#777777'
+      },
+      
+      JSale: {
+        borderRadius: '14px',
+        footerBackground: 'transparent',
+        buttonBackground: "#94f9f026",
+        buttonColor: '#94f9f0',
+        buttonBorderRadius: '14px'
+      },
+
+      JLocation: {
+        color: '#555762',
+        background: 'transparent',
+        border: '1px solid #7f7c7c',
+        borderRadius: '14px',
         boxShadow: 'none'
       }
     }    
@@ -890,18 +961,92 @@ export default function Providers({ children, props }) {
   })
 
 
+  const cardboard = createTheme({
+    type: "light", // it could be "light" or "dark"
+    theme: {
+      
+      colors: {
+        link: '#007bff',
+      },
+
+      body: {
+        background: '#fff',
+        backgroundImage: 'url(https://wellb.app/images/v4/themes/cardboard.png)',
+        backgroundPositionX: 'none',
+        backgroundSize: '1000px'
+      },
+
+      JText: {
+        color: '#333',
+        textShadow: 'none'
+      },
+
+      JH1: {
+        color: '#333',
+        textShadow: 'none'
+      },
+
+      JH2: {
+        color: '#333',
+        textShadow: 'none'
+      },
+
+      JH3: {
+        color: '#333',
+        textShadow: 'none'
+      },
+
+      JH4: {
+        color: '#333',
+        textShadow: 'none'
+      },
+
+      JLinkButton: {
+        color: '#fff',
+        background: '#7679b3',
+        borderRadius: '0px',
+        border: "none"
+      },
+      
+      JBadges: {
+        color: '#494949',
+        border: 'none',
+        borderRadius: '4px',
+        background: '#e69f9f'
+      },
+      
+      JSale: {
+        borderRadius: '0px',
+        footerBackground: 'transparent',
+        buttonBackground: "#94f9f026",
+        buttonColor: '#94f9f0',
+        buttonBorderRadius: '0px'
+      },
+
+      JLocation: {
+        color: '#333',
+        background: '#e0dada',
+        border: 'none',
+        borderRadius: '0px',
+        boxShadow: 'none'
+      }
+    }    
+  })
+
+
 
   return (
     <>
-      <NextUIProvider theme={zen}>
-        <Container css={{
-          maxWidth:'none',
-          overflow:'auto', 
-          minHeight:'100vh',
-          background:"$body$background",
-          backgroundImage:'$body$backgroundImage',
-          backgroundPositionX:'$body$backgroundPositionX',
-          backgroundSize:'$body$backgroundSize'
+      <NextUIProvider theme={cardboard}>
+        <Container
+          css={{
+            maxWidth:'none',
+            overflow:'auto', 
+            minHeight:'100vh',
+            background:"$body$background",
+            backgroundImage:'$body$backgroundImage',
+            backgroundPositionX:'$body$backgroundPositionX',
+            backgroundSize:'$body$backgroundSize'
           }}>
           {children}
         </Container>
@@ -909,3 +1054,5 @@ export default function Providers({ children, props }) {
     </>
   )
 }
+
+

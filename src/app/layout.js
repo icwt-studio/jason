@@ -10,7 +10,7 @@ const fontGoogle = VT323({
 
 export default async function RootLayout({ children }) {
   const data = await getData();
-    
+  
   return (
     <html lang="en">
       <head>

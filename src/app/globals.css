@@ -105,3 +105,41 @@ a {
     color-scheme: dark;
   }
 }
+
+
+
+
+/* 
+.cardboardClass{
+  overflow: inherit;
+  width: calc(100% - 11px);
+  margin-bottom: 20px;
+}
+
+.cardboardClass::after {
+  background-color: #595c8d;
+  color: #7679b3;
+  content: '';
+  padding-top: 4px;
+  line-height: 8px;
+  font-weight: 700;
+  position: absolute;
+  top: 5px;
+  right: -10px;
+  width: 10px;
+  height: 100%;
+  transform: skewY(45deg);
+}
+
+.cardboardClass::before {
+  content: '';
+  position: absolute;
+  background-color: #595c8d;
+  height: 10px;
+  width: 100%;
+  bottom: -10px;
+  left: 5px;
+  top: auto;
+  right: auto;
+  transform: skewX(45deg);
+} */
