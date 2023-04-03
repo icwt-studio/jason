@@ -2,7 +2,7 @@ export default function CardboardEffect (props) {
     const template = props.template
     const component = props.component;
 
-    // if (template === "cardboard") {
+    if (template === "cardboard") {
         return (
             <div style={{height:'100%', width:'100%', position: 'absolute'}}>
                 <div style={{
@@ -30,7 +30,7 @@ export default function CardboardEffect (props) {
                     }}/>
             </div>
         )
-    // }
+    }
 
 
 

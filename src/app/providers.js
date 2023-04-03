@@ -4,8 +4,8 @@ import { useServerInsertedHTML } from 'next/navigation'
 import { NextUIProvider, CssBaseline, createTheme, Container } from '@nextui-org/react'
 
 
-export default function Providers({ children}) {
-  
+export default function Providers({ children, template, }) {
+
   useServerInsertedHTML(() => {
     return <>{CssBaseline.flush()}</>
   })
@@ -1037,7 +1037,7 @@ export default function Providers({ children}) {
 
   return (
     <>
-      <NextUIProvider theme={cardboard}>
+      <NextUIProvider theme={eval(template)}>
         <Container
           css={{
             maxWidth:'none',

@@ -14,11 +14,15 @@ export default async function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>{data.title}</title>
-        <meta desctiption={data.description} />
+        <title>{data.meta.title}</title>
+        <meta desctiption={data.meta.description} />
       </head>
       {/* <body className={fontGoogle.className}> <Providers>{children}</Providers></body> */}
-      <body> <Providers>{children}</Providers></body>
+      <body>
+        <Providers template={data.template}>
+          {children}
+        </Providers>
+      </body>
     </html>
   )
 }
