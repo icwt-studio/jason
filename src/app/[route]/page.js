@@ -13,6 +13,11 @@ export default async function Route ({ params }) {
 }
 
 async function getData(route) {
-  const fileContents = await fs.readFile(`${route}.json`, 'utf8');
-  return JSON.parse(fileContents);
+  try {
+    const fileContents = await fs.readFile(`${route}.json`, 'utf8');
+    return JSON.parse(fileContents);
+  } catch (error) {
+    const notFoundtContents = await fs.readFile('notFound.json', 'utf8');
+    return JSON.parse(notFoundtContents);
+  }
 }
