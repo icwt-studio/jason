@@ -7,7 +7,6 @@ export default async function Route ({ params }) {
 
   return (
     <main>
-      <h1>Esto es un post {route} </h1>
       <RenderPage data={data} />
     </main>
   )
