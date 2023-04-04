@@ -21,6 +21,8 @@
 
 #exclude data.json
 data.json
+index.json
+about.json
 
 # debug
 npm-debug.log*
