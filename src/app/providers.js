@@ -2,7 +2,7 @@
 
 import { useServerInsertedHTML } from 'next/navigation'
 import { NextUIProvider, CssBaseline, createTheme, Container } from '@nextui-org/react'
-
+import RetroMonitor from "./components/jason/templates/retromonitor/RetroMonitor"
 
 export default function Providers({ children, template, }) {
 
@@ -1034,10 +1034,87 @@ export default function Providers({ children, template, }) {
   })
 
 
+  const retroMonitor = createTheme({
+    type: "light", // it could be "light" or "dark"
+    theme: {
+      
+      colors: {
+        link: '#740343',
+      },
+
+      body: {
+        backgroundColor: '#2b1165',
+        backgroundImage: 'linear-gradient(180deg, #2b1165 0%, #1a3a82 37%, #ab24b1 69%, #f54171 100%)',
+        backgroundPositionX: 'none',
+        backgroundSize: 'none',
+        backgroundAttachment: 'fixed'
+      },
+
+      JText: {
+        color: '#fff',
+        textShadow: 'none'
+      },
+
+      JH1: {
+        color: '#fff',
+        textShadow: 'none'
+      },
+
+      JH2: {
+        color: '#fff',
+        textShadow: 'none'
+      },
+
+      JH3: {
+        color: '#fff',
+        textShadow: 'none'
+      },
+
+      JH4: {
+        color: '#fff',
+        textShadow: 'none'
+      },
+
+      JLinkButton: {
+        color: '#fff',
+        background: '#740343',
+        borderRadius: '0px',
+        border: "none"
+      },
+      
+      JBadges: {
+        color: '#9a6c8e',
+        border: 'none',
+        borderRadius: '0px',
+        background: '#feebd7'
+      },
+      
+      JSale: {
+        borderRadius: '10px',
+        footerBackground: 'transparent',
+        buttonBackground: "#94f9f026",
+        buttonColor: '#94f9f0',
+        buttonBorderRadius: '0px'
+      },
+
+      JLocation: {
+        color: '#fff',
+        background: '#ffffff08',
+        border: 'none',
+        borderRadius: '0px',
+        boxShadow: 'none',
+        boxShadow: 'none'
+      }
+    }    
+  })
+
+
+
 
   return (
     <>
       <NextUIProvider theme={eval(template)}>
+        <RetroMonitor template={template}/>
         <Container
           css={{
             maxWidth:'none',
@@ -1047,6 +1124,7 @@ export default function Providers({ children, template, }) {
             backgroundSize:'$body$backgroundSize',
             backgroundImage:'$body$backgroundImage',
             backgroundColor:"$body$backgroundColor",
+            backgroundAttachment:'$body$backgroundAttachment'
           }}>
           {children}
         </Container>
