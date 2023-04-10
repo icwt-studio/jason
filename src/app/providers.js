@@ -20,7 +20,7 @@ export default function Providers({ children, template, }) {
       },
 
       body: {
-        background: '#fd9ec1',
+        backgroundColor: '#fd9ec1',
         backgroundImage: 'none',
         backgroundPositionX: 'none',
         backgroundSize: 'none'
@@ -93,8 +93,8 @@ export default function Providers({ children, template, }) {
       },
 
       body: {
-        background: 'linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%)',
-        backgroundImage: 'none',
+        backgroundColor: '#fff',
+        backgroundImage: 'linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%)',
         backgroundPositionX: 'none',
         backgroundSize: 'none'
       },
@@ -166,7 +166,7 @@ export default function Providers({ children, template, }) {
       },
 
       body: {
-        background: '#0c0549',
+        backgroundColor: '#0c0549',
         backgroundImage: 'none',
         backgroundPositionX: 'none',
         backgroundSize: 'none'
@@ -239,7 +239,7 @@ export default function Providers({ children, template, }) {
       },
 
       body: {
-        background: '#f1f4fb',
+        backgroundColor: '#f1f4fb',
         backgroundImage: 'none',
         backgroundPositionX: 'none',
         backgroundSize: 'none'
@@ -312,7 +312,7 @@ export default function Providers({ children, template, }) {
       },
 
       body: {
-        background: '#3f51b5',
+        backgroundColor: '#3f51b5',
         backgroundImage: 'none',
         backgroundPositionX: 'none',
         backgroundSize: 'none'
@@ -385,7 +385,7 @@ export default function Providers({ children, template, }) {
       },
 
       body: {
-        background: '#fff',
+        backgroundColor: '#fff',
         backgroundImage: 'none',
         backgroundPositionX: 'none',
         backgroundSize: 'none'
@@ -458,7 +458,7 @@ export default function Providers({ children, template, }) {
       },
 
       body: {
-        background: '#6856ff',
+        backgroundColor: '#6856ff',
         backgroundImage: 'none',
         backgroundPositionX: 'none',
         backgroundSize: 'none'
@@ -531,8 +531,8 @@ export default function Providers({ children, template, }) {
       },
 
       body: {
-        background: 'linear-gradient(90deg, rgba(180,58,96,1) 0%, rgba(253,29,29,1) 50%, rgba(254,201,127,1) 97%)',
-        backgroundImage: 'none',
+        backgroundColor: '#fff',
+        backgroundImage: 'linear-gradient(90deg, rgba(180,58,96,1) 0%, rgba(253,29,29,1) 50%, rgba(254,201,127,1) 97%)',
         backgroundPositionX: 'none',
         backgroundSize: 'none'
       },
@@ -604,8 +604,8 @@ export default function Providers({ children, template, }) {
       },
 
       body: {
-        background: 'linear-gradient(45deg, #726193, #e37b7c 20%, #ffe4b4)',
-        backgroundImage: 'none',
+        backgroundColor: '#fff',
+        backgroundImage: 'linear-gradient(45deg, #726193, #e37b7c 20%, #ffe4b4)',
         backgroundPositionX: 'none',
         backgroundSize: 'none'
       },
@@ -678,7 +678,7 @@ export default function Providers({ children, template, }) {
       },
 
       body: {
-        background: '#e9dbff',
+        backgroundColor: '#e9dbff',
         backgroundImage: 'none',
         backgroundPositionX: 'none',
         backgroundSize: 'none'
@@ -751,7 +751,7 @@ export default function Providers({ children, template, }) {
       },
 
       body: {
-        background: '#fff',
+        backgroundColor: '#fff',
         backgroundImage: 'url(https://wellb.app/images/v4/themes/marble.png)',
         backgroundPositionX: '0px',
         backgroundSize: '3800px'
@@ -824,7 +824,7 @@ export default function Providers({ children, template, }) {
       },
 
       body: {
-        background: '#fff',
+        backgroundColor: '#fff',
         backgroundImage: 'url(https://wellb.app/images/v4/themes/tropical.jpeg)',
         backgroundPositionX: '201px',
         backgroundSize: '600px'
@@ -897,7 +897,7 @@ export default function Providers({ children, template, }) {
       },
 
       body: {
-        background: '#fff',
+        backgroundColor: '#fff',
         backgroundImage: 'url(https://wellb.app/images/v4/themes/fishes.png)',
         backgroundPositionX: '201px',
         backgroundSize: 'none'
@@ -970,7 +970,7 @@ export default function Providers({ children, template, }) {
       },
 
       body: {
-        background: '#fff',
+        backgroundColor: '#fff',
         backgroundImage: 'url(https://wellb.app/images/v4/themes/cardboard.png)',
         backgroundPositionX: 'none',
         backgroundSize: '1000px'
@@ -1043,10 +1043,10 @@ export default function Providers({ children, template, }) {
             maxWidth:'none',
             overflow:'auto', 
             minHeight:'100vh',
-            background:"$body$background",
-            backgroundImage:'$body$backgroundImage',
             backgroundPositionX:'$body$backgroundPositionX',
-            backgroundSize:'$body$backgroundSize'
+            backgroundSize:'$body$backgroundSize',
+            backgroundImage:'$body$backgroundImage',
+            backgroundColor:"$body$backgroundColor",
           }}>
           {children}
         </Container>
