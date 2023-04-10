@@ -31,7 +31,4 @@ export default function CardboardEffect (props) {
             </div>
         )
     }
-
-
-
 }

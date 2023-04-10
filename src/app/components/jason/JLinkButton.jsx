@@ -21,7 +21,7 @@ export default function JLinkButton(props) {
         border:'$JLinkButton$border',
         overflow:'visible'}}>
         {data.label}
-        <CardboardEffect component='JLinkButton'/>
+        <CardboardEffect template={template} component='JLinkButton'/>
       </Button>
     </Link>
   )
