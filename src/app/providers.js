@@ -1039,7 +1039,7 @@ export default function Providers({ children, template, }) {
     theme: {
       
       colors: {
-        link: '#740343',
+        link: '#92CD41',
       },
 
       body: {
@@ -1077,20 +1077,20 @@ export default function Providers({ children, template, }) {
 
       JLinkButton: {
         color: '#fff',
-        background: '#740343',
+        background: '#92CD41',
         borderRadius: '0px',
-        border: "none"
+        border: "2px solid #111"
       },
       
       JBadges: {
-        color: '#9a6c8e',
-        border: 'none',
+        color: '#111',
+        border: '2px solid #111',
         borderRadius: '0px',
-        background: '#feebd7'
+        background: '#fff'
       },
       
       JSale: {
-        borderRadius: '10px',
+        borderRadius: '0px',
         footerBackground: 'transparent',
         buttonBackground: "#94f9f026",
         buttonColor: '#94f9f0',
