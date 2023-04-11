@@ -10,7 +10,7 @@ export default function JAutoText(props) {
 		{
 		AboutDevTypeText:
 			// "<p><b>What should we talk about?</b></p><ul><li>Ask Sam for fun things to do in new places</li><li>Talk through your new business ideas</li><li>Learn about any topic</li><li>Ask Sam to make a story for you on the spot</li><li>Perform a mock interview in the car on your way to the real interview</li><li>It can help you write your personal gratitude journal</li><li>Whatever you want!</li></ul>",
-			data.label + " ",
+			`<p>${data.label}<p>`,
 		},
 	];
 
