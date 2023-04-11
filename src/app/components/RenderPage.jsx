@@ -16,7 +16,7 @@ import JH2 from "./jason/JH2"
 import JH3 from "./jason/JH3"
 import JH4 from "./jason/JH4"
 import JAvatar from "./jason/JAvatar"
-import jAvatar from "./jason/JAvatar"
+import JAutoText from "./jason/JAutoText"
 
 const components = {
   jbadges: JBadges,
@@ -31,7 +31,8 @@ const components = {
   jh2: JH2,
   jh3: JH3,
   jh4: JH4,
-  javatar: JAvatar
+  javatar: JAvatar,
+  jautotext: JAutoText
 }
 
 export default function RenderPage (props) {

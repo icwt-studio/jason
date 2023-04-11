@@ -1,9 +1,9 @@
 import Providers from './providers'
 import './globals.css'
 
-import { VT323 } from 'next/font/google'
+import { Press_Start_2P } from 'next/font/google'
 
-const fontGoogle = VT323({
+const fontGoogle = Press_Start_2P({
   weight: '400',
   subsets: ['latin'],
 })
@@ -17,7 +17,7 @@ export default async function RootLayout({ children }) {
         <title>{data.meta.title}</title>
         <meta desctiption={data.meta.description} />
       </head>
-      {/* <body className={fontGoogle.className}> <Providers>{children}</Providers></body> */}
+      {/* <body className={fontGoogle.className}> */}
       <body>
         <Providers template={data.template}>
           {children}
