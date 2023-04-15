@@ -2,14 +2,6 @@
 
 import { Row, Grid } from "@nextui-org/react"
 
-
-import { Press_Start_2P } from '@next/font/google'
-const fontGoogle = Press_Start_2P({
-  weight: '400',
-  subsets: ['latin'],
-})
-
-
 import JBadges from "./jason/JBadges"
 import JGrid from "./jason/JGrid"
 import JSale from "./jason/JSale"
@@ -34,7 +26,7 @@ const components = {
   jlinkbutton: JLinkButton,
   jlocation: JLocation,
   jmargin: JMargin,
-  jtexts: JText,
+  jtext: JText,
   jlist: JList,
   jh1: JH1,
   jh2: JH2,
@@ -51,15 +43,9 @@ export default function RenderPage (props) {
   const items = props.data.items;
   const template = props.data.template;
 
-  const font = () => {
-    if (template === 'retroMonitor') {
-      return fontGoogle.className
-    }
-  }
-
   return (
     <>
-        <Grid className={font()}>
+        <Grid>
           {items.map(item => {
             const JasonComponent = components[item.component.toLowerCase()];
             

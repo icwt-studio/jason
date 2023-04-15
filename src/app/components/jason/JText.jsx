@@ -1,7 +1,7 @@
 'use client'
 import { Text } from "@nextui-org/react"
 
-export default function JTexts(props) {
+export default function JText(props) {
     const data = props.data;
     const template = props.template
 

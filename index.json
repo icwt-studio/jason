@@ -1,0 +1,295 @@
+{
+    "template": "retroMonitor",
+    "meta": 
+        {
+            "title": "Esto es un tituloooo",
+            "description": "lololo"
+        },
+    "items": [
+        {
+            "component": "JText",
+            "data": {
+                "aling": "left",
+                "label":"Esto es un texto"
+            }
+        },
+        {
+            "component": "JH1",
+            "data": {
+                "aling": "left",
+                "label":"Titulo <h1>"
+            }
+        },
+        {
+            "component": "JH2",
+            "data": {
+                "aling": "center",
+                "label":"Titulo <h2>"
+            }
+        },
+        {
+            "component": "JH3",
+            "data": {
+                "aling": "left",
+                "label":"Titulo <h3>"
+            }
+        },
+        {
+            "component": "JH4",
+            "data": {
+                "aling": "left",
+                "label":"Titulo <h4>"
+            }
+        },
+        {
+            "component": "JText",
+            "data": {
+                "aling": "left",
+                "label":"Puedes encontrarme en los siguientes puntos!"
+            }
+        },
+        {
+            "component": "JList",
+            "data": {
+                "aling": "left",
+                "style": "none",
+                "list": ["1 <li>", "2 <li>", "3 <li>"]
+            }
+        },
+        {
+            "component": "JAutoText",
+            "data": {
+                "label":"Este es un texto magico que se genera solo por arte de magia"
+            }
+        },
+        {
+            "component": "JImage",
+            "data": {
+                "aling": "left",
+                "link_img": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/12/16786213985824.jpg",
+                "height": 180,
+                "width": 320
+            }
+        },
+        {
+            "component": "JImage",
+            "data": {
+                "aling": "center",
+                "link_img": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/12/16786213985824.jpg",
+                "height": 100,
+                "width": 520
+            }
+        },
+        {
+            "component": "JImage",
+            "data": {
+                "aling": "center",
+                "link_img": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/12/16786213985824.jpg",
+                "width": 520
+            }
+        },
+        {
+            "component": "JAvatar",
+            "data": {
+                "aling": "center",
+                "link_img": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/12/16786213985824.jpg"
+            }
+        },
+        {
+            "component": "JH4",
+            "data": {
+                "aling": "center",
+                "label":"Nicolás Lynch"
+            }
+        },
+        {
+            "component": "JText",
+            "data": {
+                "aling": "center",
+                "label":"Front-End Developer. Me suelen confundir con un tal Brad Pitt"
+            }
+        },
+        {
+            "component": "JBadges",
+            "aling": "center",
+            "data": {
+                "list":["React", "Next", "Express", "Node"]
+            }
+        },
+        {
+            "component": "JMargin",
+            "data": {
+                "x": 0,
+                "y": 1
+            }
+        },
+        {
+            "component": "JLinkButton",
+            "data": {
+                "label": "Portfolio",
+                "link": "https://nicolaslynch.com/",
+                "icon": "whatsaap",
+                "type": "primary"
+            }
+        },
+        {
+            "component": "JLinkButton",
+            "data": {
+                "label": "Instagram",
+                "link": "https://www.instagram.com/nicolaslynch_/",
+                "icon": "whatsaap",
+                "type": "primary"
+            }
+        },
+        {
+            "component": "JLinkButton",
+            "data": {
+                "label": "TikTok",
+                "link": "https://www.instagram.com/nicolaslynch_/",
+                "icon": "whatsaap",
+                "type": "secondary"
+            }
+        },
+        {
+            "component": "JLinkButton",
+            "data": {
+                "label": "WhatsApp",
+                "link": "https://api.whatsapp.com/send?phone=5491173621834&text=Hola",
+                "icon": "whatsaap",
+                "type": "secondary"
+            }
+        },
+        {
+            "component": "JMargin",
+            "data": {
+                "x": 0,
+                "y": 1
+            }
+        },
+         {
+            "component": "JH3",
+            "data": {
+                "label":"Mis servicios"
+            }
+        },
+        {
+            "component": "JSale",
+            "data": {
+                "label": "Clase de Next.js",
+                "description": "No leas la documentacion oficial, yo te explico!",
+                "price": 7000,
+                "currency": "ARS",
+                "link": "https://nextjs.org/docs/getting-started",
+                "link_img":"https://mobisoftinfotech.com/resources/wp-content/uploads/2022/04/next-JS-framework.png"
+            }
+        },
+        {
+            "component": "JSale",
+            "data": {
+                "label": "Clase de React.js",
+                "description": "No leas la documentacion oficial, yo te explico!",
+                "price": 7000,
+                "currency": "ARS",
+                "link": "https://reactjs.org/docs/getting-started.html",
+                "link_img":"https://sigdeletras.com/images/blog/202004_react_leaflet/react.png"
+            }
+        },
+         {
+            "component": "JMargin",
+            "data": {
+                "x": 0,
+                "y": 1
+            }
+        },
+        {
+            "component": "JH3",
+            "data": {
+                "label": "Ubicaciones"
+            }
+        },
+        {
+            "component": "JText",
+            "data": {
+                "aling": "center",
+                "label": "Puedes encontrarme en los siguientes puntos!"
+            }
+        },
+        {
+            "component": "JLocation",
+            "data": {
+                "label": "Sede principal",
+                "location": "Av. Cavildo 2093",
+                "link_map": "https://www.google.com/maps/place/El+Ateneo/@-34.5620988,-58.4913617,14z/data=!4m10!1m2!2m1!1sel+ateneo!3m6!1s0x95bcb5d384c861bf:0xb80e9006506efdb5!8m2!3d-34.5620988!4d-58.4563428!15sCgllbCBhdGVuZW8iA4gBAVoLIgllbCBhdGVuZW-SAQpib29rX3N0b3JlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5wYkhKTGRUQlJSUkFC4AEA!16s%2Fg%2F1tj74st8",
+                "phone_number": "+54 9 11 5379-5454",
+                "description": "Esta al lado de un chino"
+            }
+        },
+        {
+            "component": "JLocation",
+            "data": {
+                "label": "Sede en el Obelisco",
+                "location": "Av.9 de Julio 11093",
+                "link_map": "https://www.google.com/maps/place/El+Ateneo/@-34.5620988,-58.4913617,14z/data=!4m10!1m2!2m1!1sel+ateneo!3m6!1s0x95bcb5d384c861bf:0xb80e9006506efdb5!8m2!3d-34.5620988!4d-58.4563428!15sCgllbCBhdGVuZW8iA4gBAVoLIgllbCBhdGVuZW-SAQpib29rX3N0b3JlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5wYkhKTGRUQlJSUkFC4AEA!16s%2Fg%2F1tj74st8",
+                "phone_number":"+54 9 11 5379-5454",
+                "description": "Esta al lado de un chino"
+            }
+        },
+        {
+            "component": "JLocation",
+            "data": {
+                "label": "Nueva sede",
+                "location": "Uruguay 1053",
+                "link_map": "https://www.google.com/maps/place/El+Ateneo/@-34.5620988,-58.4913617,14z/data=!4m10!1m2!2m1!1sel+ateneo!3m6!1s0x95bcb5d384c861bf:0xb80e9006506efdb5!8m2!3d-34.5620988!4d-58.4563428!15sCgllbCBhdGVuZW8iA4gBAVoLIgllbCBhdGVuZW-SAQpib29rX3N0b3JlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5wYkhKTGRUQlJSUkFC4AEA!16s%2Fg%2F1tj74st8",
+                "phone_number":"+54 9 11 5379-5454",
+                "description": "Esta al lado de un chino"
+            }
+        },
+        {
+            "component": "JMargin",
+            "data": {
+                "x": 1,
+                "y": 0
+            }
+        },
+        {
+            "component": "JH3",
+            "data": {
+                "label":"Colaboradores"
+            }
+        },
+        {
+            "component": "JGrid",
+            "data": {
+                "gap": "5",
+                "columns": [
+                    {
+                        "width": 6,
+                        "template": "retroMonitor",
+                        "items": [        
+                            {
+                                "component": "JText",
+                                "data": {
+                                    "aling": "left",
+                                    "label":"Esto es un texto"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "width": 6,
+                        "template": "retroMonitor",
+                        "items": [        
+                            {
+                                "component": "JText",
+                                "data": {
+                                    "aling": "left",
+                                    "label":"Esto es un texto"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

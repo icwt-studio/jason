@@ -21,8 +21,8 @@
 
 #exclude data.json
 data.json
-index.json
 about.json
+callsam.json
 
 # debug
 npm-debug.log*
