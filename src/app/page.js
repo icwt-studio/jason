@@ -1,7 +1,6 @@
 
 import styles from './page.module.css'
 import RenderPage from './components/RenderPage';
-//import getStaticProps
 
 
 export default async function Home() {

@@ -1,7 +1,14 @@
 'use client'
 
 import { Row, Grid } from "@nextui-org/react"
-import { Prosto_One } from "next/font/google"
+
+
+import { Press_Start_2P } from '@next/font/google'
+const fontGoogle = Press_Start_2P({
+  weight: '400',
+  subsets: ['latin'],
+})
+
 
 import JBadges from "./jason/JBadges"
 import JGrid from "./jason/JGrid"
@@ -18,6 +25,7 @@ import JH4 from "./jason/JH4"
 import JAvatar from "./jason/JAvatar"
 import JAutoText from "./jason/JAutoText"
 import JImage from "./jason/JImage"
+import JNavbar from "./jason/JNavbar"
 
 const components = {
   jbadges: JBadges,
@@ -34,7 +42,8 @@ const components = {
   jh4: JH4,
   javatar: JAvatar,
   jautotext: JAutoText,
-  jimage: JImage
+  jimage: JImage,
+  jnavbar: JNavbar
 }
 
 export default function RenderPage (props) {
@@ -42,9 +51,15 @@ export default function RenderPage (props) {
   const items = props.data.items;
   const template = props.data.template;
 
+  const font = () => {
+    if (template === 'retroMonitor') {
+      return fontGoogle.className
+    }
+  }
+
   return (
     <>
-        <Grid>
+        <Grid className={font()}>
           {items.map(item => {
             const JasonComponent = components[item.component.toLowerCase()];
             

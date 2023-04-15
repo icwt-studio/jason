@@ -1,16 +1,21 @@
 import React, { useEffect } from "react";
+import { Text } from "@nextui-org/react"
 
 export default function JAutoText(props) {
 	const data = props.data;
+	const template = props.template
 
-
-	console.log(data.label)
+    const font = () => {
+        if (template === 'retroMonitor') {
+          return "'__Press_Start_2P_e81491', '__Press_Start_2P_Fallback_e81491'"
+        }
+    }
 
   	const info = [
 		{
 		AboutDevTypeText:
 			// "<p><b>What should we talk about?</b></p><ul><li>Ask Sam for fun things to do in new places</li><li>Talk through your new business ideas</li><li>Learn about any topic</li><li>Ask Sam to make a story for you on the spot</li><li>Perform a mock interview in the car on your way to the real interview</li><li>It can help you write your personal gratitude journal</li><li>Whatever you want!</li></ul>",
-			`<p>${data.label}<p>`,
+			`<Text css={{fontFamily:font()}}>${data.label}<p>`,
 		},
 	];
 

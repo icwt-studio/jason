@@ -1,12 +1,7 @@
 import Providers from './providers'
 import './globals.css'
 
-import { Press_Start_2P } from 'next/font/google'
 
-const fontGoogle = Press_Start_2P({
-  weight: '400',
-  subsets: ['latin'],
-})
 
 export default async function RootLayout({ children }) {
   const data = await getData();
@@ -16,6 +11,7 @@ export default async function RootLayout({ children }) {
       <head>
         <title>{data.meta.title}</title>
         <meta desctiption={data.meta.description} />
+        <link rel="icon" href="https://www.pngkey.com/png/detail/842-8424474_icono-perro-adiestramiento-ico-dog.png" />
       </head>
       {/* <body className={fontGoogle.className}> */}
       <body>
