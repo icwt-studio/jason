@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import { Text } from "@nextui-org/react"
 
+import { editComponent } from '../../hooks/editComponent';
+import { useRef } from 'react';
+
 export default function JAutoText(props) {
 	const data = props.data;
 	const template = props.template
@@ -9,6 +12,11 @@ export default function JAutoText(props) {
         if (template === 'retroMonitor') {
           return "'__Press_Start_2P_e81491', '__Press_Start_2P_Fallback_e81491'"
         }
+    }
+
+	const editableRef = useRef(null);
+    const handleEditClick = () => {
+      editComponent(editableRef);
     }
 
   	const info = [
@@ -53,7 +61,7 @@ export default function JAutoText(props) {
 	}, []);
 
 	return (
-		<span
+		<span ref={editableRef} onClick={handleEditClick}
 		id="AboutDevTypeText"
 		className="typeing"
 		style={{ color: "#fff" }}
