@@ -1,5 +1,8 @@
 'use client'
-import { Text } from "@nextui-org/react"
+
+import { Text } from "@nextui-org/react";
+import { editComponent } from '../../hooks/editComponent';
+import { useRef } from 'react';
 
 export default function JText(props) {
     const data = props.data;
@@ -11,9 +14,15 @@ export default function JText(props) {
         }
     }
 
+    const editableRef = useRef(null);
+    const handleEditClick = () => {
+      editComponent(editableRef);
+    }
+
     return(
-        <Text css={{textAlign:data.aling, color:'$JText$color', textShadow:'$JText$textShadow', fontFamily:font()}}>
+        <Text ref={editableRef} onClick={handleEditClick} css={{textAlign:data.aling, color:'$JText$color', textShadow:'$JText$textShadow', fontFamily:font()}}>
             {data.label}
         </Text>
+        
     )
 }
