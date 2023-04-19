@@ -2,6 +2,8 @@
 
 import { Row, Grid } from "@nextui-org/react"
 
+import { useState } from "react"
+
 import JBadges from "./jason/JBadges"
 import JGrid from "./jason/JGrid"
 import JSale from "./jason/JSale"
@@ -18,6 +20,7 @@ import JAvatar from "./jason/JAvatar"
 import JAutoText from "./jason/JAutoText"
 import JImage from "./jason/JImage"
 import JNavbar from "./jason/JNavbar"
+import { useEffect } from "react"
 
 const components = {
   jbadges: JBadges,
@@ -38,20 +41,65 @@ const components = {
   jnavbar: JNavbar
 }
 
+import { editComponent } from '../hooks/editComponent';
+
 export default function RenderPage (props) {
-  
+  const json_copy = props;
   const items = props.data.items;
   const template = props.data.template;
+  
+  const [isEditableClicked, setIsEditableClicked] = useState(false);
+
+  useEffect(() => {
+    console.log(json_copy);
+    function handleClick(element) {
+      editComponent(element);
+      // call function
+    }
+
+    const editableElements = document.querySelectorAll(".jeditable");
+    editableElements.forEach((element) => {
+      
+      element.addEventListener("click", function(event){
+        
+        let elementEditable = event.currentTarget;
+        console.log(elementEditable);
+        elementEditable.contentEditable = true;
+        elementEditable.focus();
+      });
+
+      element.addEventListener("blur", function(event){
+        console.log("NEW DATA");
+        console.log(event.target.innerHTML);
+        console.log("JSONINDEX",element.getAttribute('data-jsonindex'));
+        console.log("COMPONENT",element.getAttribute('data-component'));
+        console.log("KEY",element.getAttribute('data-key'));
+
+        
+        console.log("====================================");
+        //json_copy.data.items[element.getAttribute('data-jsonindex')]['data'][element.getAttribute('data-key')] = event.target.innerHTML;
+        console.log(json_copy);
+        
+      });
+
+    });
+
+    return () => {
+      editableElements.forEach((element) => {
+        element.removeEventListener("click", handleClick(element));
+      });
+    };
+  }, []);
 
   return (
     <>
         <Grid>
-          {items.map(item => {
+          {items.map((item,index) => {
             const JasonComponent = components[item.component.toLowerCase()];
             
             if (components.hasOwnProperty(`${item.component.toLowerCase()}`)) {                           // Chequea que el componente del .json exista dentro de la lista
               return (
-                <JasonComponent data={item.data} template={template}/>
+                <JasonComponent data={item.data} jsonindex={index} template={template}/>
               )
             }
           })}

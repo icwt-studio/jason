@@ -1,5 +1,5 @@
 {
-    "template": "retroMonitor",
+    "template": "mint",
     "meta": 
         {
             "title": "Esto es un tituloooo",
@@ -136,7 +136,7 @@
             "component": "JLinkButton",
             "data": {
                 "label": "Instagram",
-                "link": "https://www.instagram.com/nicolaslynch_/",
+                "link": "https://www.instagram.com/",
                 "icon": "whatsaap",
                 "type": "primary"
             }
@@ -145,7 +145,7 @@
             "component": "JLinkButton",
             "data": {
                 "label": "TikTok",
-                "link": "https://www.instagram.com/nicolaslynch_/",
+                "link": "https://www.instagram.com/",
                 "icon": "whatsaap",
                 "type": "secondary"
             }
@@ -154,7 +154,7 @@
             "component": "JLinkButton",
             "data": {
                 "label": "WhatsApp",
-                "link": "https://api.whatsapp.com/send?phone=5491173621834&text=Hola",
+                "link": "https://www.instagram.com/",
                 "icon": "whatsaap",
                 "type": "secondary"
             }
