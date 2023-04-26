@@ -11,7 +11,6 @@ export default async function RootLayout({ children }) {
       <head>
         <title>{data.meta.title}</title>
         <meta desctiption={data.meta.description} />
-        <link rel="icon" href="https://www.pngkey.com/png/detail/842-8424474_icono-perro-adiestramiento-ico-dog.png" />
       </head>
       {/* <body className={fontGoogle.className}> */}
       <body>

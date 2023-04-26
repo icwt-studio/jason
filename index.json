@@ -21,6 +21,13 @@
             }
         },
         {
+            "component": "JH1",
+            "data": {
+                "aling": "left",
+                "label":"Titulo <h1>"
+            }
+        },
+        {
             "component": "JH2",
             "data": {
                 "aling": "center",

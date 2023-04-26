@@ -14,7 +14,7 @@ export default function JH1 (props) {
     }
 
     return(
-        <Text ref={editableRef} data-key="label" data-jsonindex={jsonindex} class="jeditable" onClick={handleEditClick} css={{
+        <Text ref={editableRef} data-key="label" data-jsonindex={jsonindex} data-component="JH1" class="jeditable" onClick={handleEditClick} css={{
             marginTop:'0px', 
             marginBottom:'0px', 
             color:'$JH4$color', 

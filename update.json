@@ -1,0 +1,17 @@
+{
+            "template": "mint",
+            "meta": 
+                {
+                    "title": "Esto es un tituloooo",
+                    "description": "lololo"
+                },
+            "items": [
+        {
+            "component": "JText",
+            "data": {
+                "aling": "center",
+                "label": "nicooooo"
+            }
+        }
+            ]
+        }
