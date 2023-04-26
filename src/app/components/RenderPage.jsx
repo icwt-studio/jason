@@ -132,32 +132,28 @@ useEffect(() => {
 		});
 
 		element.addEventListener('blur', (event) => {
-			console.log('NEW DATA');
-			console.log(event.target.innerHTML);
-			console.log('JSONINDEX', element.getAttribute('data-jsonindex'));
-			console.log('COMPONENT', element.getAttribute('data-component'));
-			console.log('KEY', element.getAttribute('data-key'));
+			let newJson ={
+				"template": "mint",
+				"meta": 
+						{
+								"title": "Esto es un tituloooo",
+								"description": "lololo"
+						},
+				"items": [
 
-			elementsArray.push({
-				jsonIndex: element.getAttribute('data-jsonindex'),
-				component: element.getAttribute('data-component'),
-				key: element.getAttribute('data-key'),
-				value: event.target.innerHTML
-			});
+					Array.from(editableElements.current).map((element) => {
+						return {
+							"component": element.getAttribute('data-component'),
+							"data": {
+								"aling": "left",
+								"label": event.target.innerHTML
+							}
+						};
+					})
+				]
+			}
+			console.log(newJson)
 
-			// Crear una nueva lista con los valores actualizados
-			const updatedElementsArray = Array.from(editableElements.current).map((element) => {
-				return {
-					jsonIndex: element.getAttribute('data-jsonindex'),
-					component: element.getAttribute('data-component'),
-					key: element.getAttribute('data-key'),
-					value: element.innerHTML
-				};
-			});
-
-			console.log('====================================');
-			//json_copy.data.items[element.getAttribute('data-jsonindex')]['data'][element.getAttribute('data-key')] = event.target.innerHTML;
-			console.log(updatedElementsArray);
 		});
 	});
 }, []);
