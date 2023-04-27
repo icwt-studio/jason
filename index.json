@@ -35,10 +35,31 @@
             }
         },
         {
-            "component": "JH1",
+            "component": "JH2",
             "data": {
                 "aling": "left",
-                "label":"nicolas"
+                "label":"h2"
+            }
+        },
+        {
+            "component": "JH2",
+            "data": {
+                "aling": "left",
+                "label":"h2"
+            }
+        },
+        {
+            "component": "JH3",
+            "data": {
+                "aling": "left",
+                "label":"h3"
+            }
+        },
+        {
+            "component": "JH4",
+            "data": {
+                "aling": "left",
+                "label":"h4"
             }
         },
         {

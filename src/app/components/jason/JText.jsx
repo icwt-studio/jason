@@ -5,6 +5,7 @@ import { Text } from "@nextui-org/react";
 export default function JText(props) {
     const data = props.data;
     const template = props.template
+    const jsonindex = props.jsonindex;
 
     const font = () => {
         if (template === 'retroMonitor') {
@@ -13,7 +14,7 @@ export default function JText(props) {
     }
 
     return(
-        <Text css={{textAlign:data.aling, color:'$JText$color', textShadow:'$JText$textShadow', fontFamily:font()}}>
+        <Text data-key="label" data-jsonindex={jsonindex} data-component="JText" className="jeditable" css={{textAlign:data.aling, color:'$JText$color', textShadow:'$JText$textShadow', fontFamily:font()}}>
             {data.label}
         </Text>
         

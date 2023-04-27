@@ -3,7 +3,8 @@ import { Text } from "@nextui-org/react"
 
 export default function JAutoText(props) {
 	const data = props.data;
-	const template = props.template
+	const template = props.template;
+	const jsonindex = props.jsonindex;
 
     const font = () => {
         if (template === 'retroMonitor') {
@@ -53,9 +54,8 @@ export default function JAutoText(props) {
 	}, []);
 
 	return (
-		<span
+		<span  data-key="label" data-jsonindex={jsonindex} data-component="JAutoText" className="jeditable typeing"
 		id="AboutDevTypeText"
-		className="typeing"
 		style={{ color: "#fff" }}
 		></span>
 	);
