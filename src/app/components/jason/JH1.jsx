@@ -2,19 +2,12 @@
 
 import { Text } from "@nextui-org/react";
 
-import { editComponent } from '../../hooks/editComponent';
-import { useRef } from 'react';
-
 export default function JH1 (props) {
     const data = props.data;
     const jsonindex = props.jsonindex;
-    const editableRef = useRef(null);
-    const handleEditClick = () => {
-     // editComponent(editableRef);
-    }
 
     return(
-        <Text ref={editableRef} data-key="label" data-jsonindex={jsonindex} data-component="JH1" class="jeditable" onClick={handleEditClick} css={{
+        <Text data-key="label" data-jsonindex={jsonindex} data-component="JH1" class="jeditable" css={{
             marginTop:'0px', 
             marginBottom:'0px', 
             color:'$JH4$color', 
