@@ -60,6 +60,7 @@ export default function RenderPage (props) {
       element.addEventListener('blur', (event) => {
 
         const updatedElementsArray = Array.from(editableElements.current).map((element) => {
+          
           return {
             component: element.getAttribute('data-component'),
             // jsonIndex: element.getAttribute('data-jsonindex'),
